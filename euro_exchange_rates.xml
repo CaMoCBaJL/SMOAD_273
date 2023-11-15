@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="https://www.floatrates.com/currency-xsl.xsl" ?>
+<channel>
+	<title>XML Daily Foreign Exchange Rates for Euro (EUR)</title>
+	<link>http://www.floatrates.com/currency/eur/</link>
+	<xmlLink>http://www.floatrates.com/daily/eur.xml</xmlLink>
+	<description>XML Daily foreign exchange rates for Euro (EUR) from the Float Rates. Published at Sat, 11 Nov 2023 23:55:01 GMT.</description>
+	<language>en</language>
+	<baseCurrency>EUR</baseCurrency>
+	<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+	<lastBuildDate>Sat, 11 Nov 2023 23:55:01 GMT</lastBuildDate>
+	<item>
+		<title>1 EUR = 1.06792434 USD</title>
+		<link>http://www.floatrates.com/eur/usd/</link>
+		<description>1 Euro = 1.06792434 U.S. Dollar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>USD</targetCurrency>
+		<targetName>U.S. Dollar</targetName>
+		<exchangeRate>1.06792434</exchangeRate>
+		<inverseRate>0.93639592</inverseRate>
+		<inverseDescription>1 U.S. Dollar = 0.93639592 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 0.87383532 GBP</title>
+		<link>http://www.floatrates.com/eur/gbp/</link>
+		<description>1 Euro = 0.87383532 U.K. Pound Sterling</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>GBP</targetCurrency>
+		<targetName>U.K. Pound Sterling</targetName>
+		<exchangeRate>0.87383532</exchangeRate>
+		<inverseRate>1.14438038</inverseRate>
+		<inverseDescription>1 U.K. Pound Sterling = 1.14438038 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1.47494681 CAD</title>
+		<link>http://www.floatrates.com/eur/cad/</link>
+		<description>1 Euro = 1.47494681 Canadian Dollar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>CAD</targetCurrency>
+		<targetName>Canadian Dollar</targetName>
+		<exchangeRate>1.47494681</exchangeRate>
+		<inverseRate>0.67799055</inverseRate>
+		<inverseDescription>1 Canadian Dollar = 0.67799055 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 161.70080429 JPY</title>
+		<link>http://www.floatrates.com/eur/jpy/</link>
+		<description>1 Euro = 161.70080429 Japanese Yen</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>JPY</targetCurrency>
+		<targetName>Japanese Yen</targetName>
+		<exchangeRate>161.70080429</exchangeRate>
+		<inverseRate>0.00618426</inverseRate>
+		<inverseDescription>1 Japanese Yen = 0.00618426 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1.67906745 AUD</title>
+		<link>http://www.floatrates.com/eur/aud/</link>
+		<description>1 Euro = 1.67906745 Australian Dollar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>AUD</targetCurrency>
+		<targetName>Australian Dollar</targetName>
+		<exchangeRate>1.67906745</exchangeRate>
+		<inverseRate>0.59556869</inverseRate>
+		<inverseDescription>1 Australian Dollar = 0.59556869 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 0.96366211 CHF</title>
+		<link>http://www.floatrates.com/eur/chf/</link>
+		<description>1 Euro = 0.96366211 Swiss Franc</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>CHF</targetCurrency>
+		<targetName>Swiss Franc</targetName>
+		<exchangeRate>0.96366211</exchangeRate>
+		<inverseRate>1.03770813</inverseRate>
+		<inverseDescription>1 Swiss Franc = 1.03770813 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 0.41088914 OMR</title>
+		<link>http://www.floatrates.com/eur/omr/</link>
+		<description>1 Euro = 0.41088914 Omani Rial</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>OMR</targetCurrency>
+		<targetName>Omani Rial</targetName>
+		<exchangeRate>0.41088914</exchangeRate>
+		<inverseRate>2.43374649</inverseRate>
+		<inverseDescription>1 Omani Rial = 2.43374649 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 4.14080116 ILS</title>
+		<link>http://www.floatrates.com/eur/ils/</link>
+		<description>1 Euro = 4.14080116 Israeli New Sheqel</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>ILS</targetCurrency>
+		<targetName>Israeli New Sheqel</targetName>
+		<exchangeRate>4.14080116</exchangeRate>
+		<inverseRate>0.24149916</inverseRate>
+		<inverseDescription>1 Israeli New Sheqel = 0.24149916 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 4.05420667 PEN</title>
+		<link>http://www.floatrates.com/eur/pen/</link>
+		<description>1 Euro = 4.05420667 Peruvian Nuevo Sol</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>PEN</targetCurrency>
+		<targetName>Peruvian Nuevo Sol</targetName>
+		<exchangeRate>4.05420667</exchangeRate>
+		<inverseRate>0.24665738</inverseRate>
+		<inverseDescription>1 Peruvian Nuevo Sol = 0.24665738 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 11.63123551 TJS</title>
+		<link>http://www.floatrates.com/eur/tjs/</link>
+		<description>1 Euro = 11.63123551 Tajikistan Ruble</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>TJS</targetCurrency>
+		<targetName>Tajikistan Ruble</targetName>
+		<exchangeRate>11.63123551</exchangeRate>
+		<inverseRate>0.08597539</inverseRate>
+		<inverseDescription>1 Tajikistan Ruble = 0.08597539 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 11.63774393 SEK</title>
+		<link>http://www.floatrates.com/eur/sek/</link>
+		<description>1 Euro = 11.63774393 Swedish Krona</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>SEK</targetCurrency>
+		<targetName>Swedish Krona</targetName>
+		<exchangeRate>11.63774393</exchangeRate>
+		<inverseRate>0.08592731</inverseRate>
+		<inverseDescription>1 Swedish Krona = 0.08592731 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1.45227856 SGD</title>
+		<link>http://www.floatrates.com/eur/sgd/</link>
+		<description>1 Euro = 1.45227856 Singapore Dollar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>SGD</targetCurrency>
+		<targetName>Singapore Dollar</targetName>
+		<exchangeRate>1.45227856</exchangeRate>
+		<inverseRate>0.68857313</inverseRate>
+		<inverseDescription>1 Singapore Dollar = 0.68857313 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 377.23914598 HUF</title>
+		<link>http://www.floatrates.com/eur/huf/</link>
+		<description>1 Euro = 377.23914598 Hungarian Forint</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>HUF</targetCurrency>
+		<targetName>Hungarian Forint</targetName>
+		<exchangeRate>377.23914598</exchangeRate>
+		<inverseRate>0.00265084</inverseRate>
+		<inverseDescription>1 Hungarian Forint = 0.00265084 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 38.53306479 UAH</title>
+		<link>http://www.floatrates.com/eur/uah/</link>
+		<description>1 Euro = 38.53306479 Ukrainian Hryvnia</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>UAH</targetCurrency>
+		<targetName>Ukrainian Hryvnia</targetName>
+		<exchangeRate>38.53306479</exchangeRate>
+		<inverseRate>0.02595174</inverseRate>
+		<inverseDescription>1 Ukrainian Hryvnia = 0.02595174 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 977.52375294 CLP</title>
+		<link>http://www.floatrates.com/eur/clp/</link>
+		<description>1 Euro = 977.52375294 Chilean Peso</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>CLP</targetCurrency>
+		<targetName>Chilean Peso</targetName>
+		<exchangeRate>977.52375294</exchangeRate>
+		<inverseRate>0.00102299</inverseRate>
+		<inverseDescription>1 Chilean Peso = 0.00102299 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 60.24460831 DOP</title>
+		<link>http://www.floatrates.com/eur/dop/</link>
+		<description>1 Euro = 60.24460831 Dominican Peso</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>DOP</targetCurrency>
+		<targetName>Dominican Peso</targetName>
+		<exchangeRate>60.24460831</exchangeRate>
+		<inverseRate>0.01659900</inverseRate>
+		<inverseDescription>1 Dominican Peso = 0.01659900 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 7.78457429 CNY</title>
+		<link>http://www.floatrates.com/eur/cny/</link>
+		<description>1 Euro = 7.78457429 Chinese Yuan</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>CNY</targetCurrency>
+		<targetName>Chinese Yuan</targetName>
+		<exchangeRate>7.78457429</exchangeRate>
+		<inverseRate>0.12845918</inverseRate>
+		<inverseDescription>1 Chinese Yuan = 0.12845918 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 151.80034716 ISK</title>
+		<link>http://www.floatrates.com/eur/isk/</link>
+		<description>1 Euro = 151.80034716 Icelandic Krona</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>ISK</targetCurrency>
+		<targetName>Icelandic Krona</targetName>
+		<exchangeRate>151.80034716</exchangeRate>
+		<inverseRate>0.00658760</inverseRate>
+		<inverseDescription>1 Icelandic Krona = 0.00658760 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1.81418860 AZN</title>
+		<link>http://www.floatrates.com/eur/azn/</link>
+		<description>1 Euro = 1.81418860 Azerbaijan Manat</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>AZN</targetCurrency>
+		<targetName>Azerbaijan Manat</targetName>
+		<exchangeRate>1.81418860</exchangeRate>
+		<inverseRate>0.55121061</inverseRate>
+		<inverseDescription>1 Azerbaijan Manat = 0.55121061 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 141.34595770 HTG</title>
+		<link>http://www.floatrates.com/eur/htg/</link>
+		<description>1 Euro = 141.34595770 Haitian gourde</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>HTG</targetCurrency>
+		<targetName>Haitian gourde</targetName>
+		<exchangeRate>141.34595770</exchangeRate>
+		<inverseRate>0.00707484</inverseRate>
+		<inverseDescription>1 Haitian gourde = 0.00707484 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1.91158564 ANG</title>
+		<link>http://www.floatrates.com/eur/ang/</link>
+		<description>1 Euro = 1.91158564 Neth. Antillean Guilder</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>ANG</targetCurrency>
+		<targetName>Neth. Antillean Guilder</targetName>
+		<exchangeRate>1.91158564</exchangeRate>
+		<inverseRate>0.52312592</inverseRate>
+		<inverseDescription>1 Neth. Antillean Guilder = 0.52312592 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 15944.89925127 LBP</title>
+		<link>http://www.floatrates.com/eur/lbp/</link>
+		<description>1 Euro = 15944.89925127 Lebanese Pound</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>LBP</targetCurrency>
+		<targetName>Lebanese Pound</targetName>
+		<exchangeRate>15944.89925127</exchangeRate>
+		<inverseRate>0.00006272</inverseRate>
+		<inverseDescription>1 Lebanese Pound = 0.00006272 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 5.03805250 MYR</title>
+		<link>http://www.floatrates.com/eur/myr/</link>
+		<description>1 Euro = 5.03805250 Malaysian Ringgit</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>MYR</targetCurrency>
+		<targetName>Malaysian Ringgit</targetName>
+		<exchangeRate>5.03805250</exchangeRate>
+		<inverseRate>0.19848940</inverseRate>
+		<inverseDescription>1 Malaysian Ringgit = 0.19848940 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 44601.39334286 IRR</title>
+		<link>http://www.floatrates.com/eur/irr/</link>
+		<description>1 Euro = 44601.39334286 Iranian rial</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>IRR</targetCurrency>
+		<targetName>Iranian rial</targetName>
+		<exchangeRate>44601.39334286</exchangeRate>
+		<inverseRate>0.00002242</inverseRate>
+		<inverseDescription>1 Iranian rial = 0.00002242 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 42.59774967 UYU</title>
+		<link>http://www.floatrates.com/eur/uyu/</link>
+		<description>1 Euro = 42.59774967 Uruguayan Peso</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>UYU</targetCurrency>
+		<targetName>Uruguayan Peso</targetName>
+		<exchangeRate>42.59774967</exchangeRate>
+		<inverseRate>0.02347542</inverseRate>
+		<inverseDescription>1 Uruguayan Peso = 0.02347542 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 0.75736149 JOD</title>
+		<link>http://www.floatrates.com/eur/jod/</link>
+		<description>1 Euro = 0.75736149 Jordanian Dinar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>JOD</targetCurrency>
+		<targetName>Jordanian Dinar</targetName>
+		<exchangeRate>0.75736149</exchangeRate>
+		<inverseRate>1.32037345</inverseRate>
+		<inverseDescription>1 Jordanian Dinar = 1.32037345 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 59.70074319 PHP</title>
+		<link>http://www.floatrates.com/eur/php/</link>
+		<description>1 Euro = 59.70074319 Philippine Peso</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>PHP</targetCurrency>
+		<targetName>Philippine Peso</targetName>
+		<exchangeRate>59.70074319</exchangeRate>
+		<inverseRate>0.01675021</inverseRate>
+		<inverseDescription>1 Philippine Peso = 0.01675021 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 663.63889331 XOF</title>
+		<link>http://www.floatrates.com/eur/xof/</link>
+		<description>1 Euro = 663.63889331 West African CFA Franc</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>XOF</targetCurrency>
+		<targetName>West African CFA Franc</targetName>
+		<exchangeRate>663.63889331</exchangeRate>
+		<inverseRate>0.00150684</inverseRate>
+		<inverseDescription>1 West African CFA Franc = 0.00150684 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 5.19258583 LYD</title>
+		<link>http://www.floatrates.com/eur/lyd/</link>
+		<description>1 Euro = 5.19258583 Libyan Dinar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>LYD</targetCurrency>
+		<targetName>Libyan Dinar</targetName>
+		<exchangeRate>5.19258583</exchangeRate>
+		<inverseRate>0.19258228</inverseRate>
+		<inverseDescription>1 Libyan Dinar = 0.19258228 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1.81176440 NZD</title>
+		<link>http://www.floatrates.com/eur/nzd/</link>
+		<description>1 Euro = 1.81176440 New Zealand Dollar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>NZD</targetCurrency>
+		<targetName>New Zealand Dollar</targetName>
+		<exchangeRate>1.81176440</exchangeRate>
+		<inverseRate>0.55194815</inverseRate>
+		<inverseDescription>1 New Zealand Dollar = 0.55194815 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 30.49477357 TRY</title>
+		<link>http://www.floatrates.com/eur/try/</link>
+		<description>1 Euro = 30.49477357 Turkish Lira</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>TRY</targetCurrency>
+		<targetName>Turkish Lira</targetName>
+		<exchangeRate>30.49477357</exchangeRate>
+		<inverseRate>0.03279250</inverseRate>
+		<inverseDescription>1 Turkish Lira = 0.03279250 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1030.28855253 NGN</title>
+		<link>http://www.floatrates.com/eur/ngn/</link>
+		<description>1 Euro = 1030.28855253 Nigerian Naira</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>NGN</targetCurrency>
+		<targetName>Nigerian Naira</targetName>
+		<exchangeRate>1030.28855253</exchangeRate>
+		<inverseRate>0.00097060</inverseRate>
+		<inverseDescription>1 Nigerian Naira = 0.00097060 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 117.18160382 RSD</title>
+		<link>http://www.floatrates.com/eur/rsd/</link>
+		<description>1 Euro = 117.18160382 Serbian Dinar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>RSD</targetCurrency>
+		<targetName>Serbian Dinar</targetName>
+		<exchangeRate>117.18160382</exchangeRate>
+		<inverseRate>0.00853376</inverseRate>
+		<inverseDescription>1 Serbian Dinar = 0.00853376 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 11.88239283 NOK</title>
+		<link>http://www.floatrates.com/eur/nok/</link>
+		<description>1 Euro = 11.88239283 Norwegian Krone</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>NOK</targetCurrency>
+		<targetName>Norwegian Krone</targetName>
+		<exchangeRate>11.88239283</exchangeRate>
+		<inverseRate>0.08415813</inverseRate>
+		<inverseDescription>1 Norwegian Krone = 0.08415813 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 3.89550004 QAR</title>
+		<link>http://www.floatrates.com/eur/qar/</link>
+		<description>1 Euro = 3.89550004 Qatari Rial</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>QAR</targetCurrency>
+		<targetName>Qatari Rial</targetName>
+		<exchangeRate>3.89550004</exchangeRate>
+		<inverseRate>0.25670645</inverseRate>
+		<inverseDescription>1 Qatari Rial = 0.25670645 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 24.51744864 CZK</title>
+		<link>http://www.floatrates.com/eur/czk/</link>
+		<description>1 Euro = 24.51744864 Czech Koruna</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>CZK</targetCurrency>
+		<targetName>Czech Koruna</targetName>
+		<exchangeRate>24.51744864</exchangeRate>
+		<inverseRate>0.04078728</inverseRate>
+		<inverseDescription>1 Czech Koruna = 0.04078728 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 3.03480262 BYN</title>
+		<link>http://www.floatrates.com/eur/byn/</link>
+		<description>1 Euro = 3.03480262 Belarussian Ruble</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>BYN</targetCurrency>
+		<targetName>Belarussian Ruble</targetName>
+		<exchangeRate>3.03480262</exchangeRate>
+		<inverseRate>0.32951072</inverseRate>
+		<inverseDescription>1 Belarussian Ruble = 0.32951072 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 373.77351977 ARS</title>
+		<link>http://www.floatrates.com/eur/ars/</link>
+		<description>1 Euro = 373.77351977 Argentine Peso</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>ARS</targetCurrency>
+		<targetName>Argentine Peso</targetName>
+		<exchangeRate>373.77351977</exchangeRate>
+		<inverseRate>0.00267542</inverseRate>
+		<inverseDescription>1 Argentine Peso = 0.00267542 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 37.53329704 VES</title>
+		<link>http://www.floatrates.com/eur/ves/</link>
+		<description>1 Euro = 37.53329704 Venezuelan Bolivar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>VES</targetCurrency>
+		<targetName>Venezuelan Bolivar</targetName>
+		<exchangeRate>37.53329704</exchangeRate>
+		<inverseRate>0.02664301</inverseRate>
+		<inverseDescription>1 Venezuelan Bolivar = 0.02664301 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 117.49700447 BDT</title>
+		<link>http://www.floatrates.com/eur/bdt/</link>
+		<description>1 Euro = 117.49700447 Bangladeshi taka</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>BDT</targetCurrency>
+		<targetName>Bangladeshi taka</targetName>
+		<exchangeRate>117.49700447</exchangeRate>
+		<inverseRate>0.00851086</inverseRate>
+		<inverseDescription>1 Bangladeshi taka = 0.00851086 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 4.96825148 RON</title>
+		<link>http://www.floatrates.com/eur/ron/</link>
+		<description>1 Euro = 4.96825148 Romanian New Leu</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>RON</targetCurrency>
+		<targetName>Romanian New Leu</targetName>
+		<exchangeRate>4.96825148</exchangeRate>
+		<inverseRate>0.20127806</inverseRate>
+		<inverseDescription>1 Romanian New Leu = 0.20127806 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 19.11039167 MDL</title>
+		<link>http://www.floatrates.com/eur/mdl/</link>
+		<description>1 Euro = 19.11039167 Moldova Lei</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>MDL</targetCurrency>
+		<targetName>Moldova Lei</targetName>
+		<exchangeRate>19.11039167</exchangeRate>
+		<inverseRate>0.05232755</inverseRate>
+		<inverseDescription>1 Moldova Lei = 0.05232755 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 569.66443717 CRC</title>
+		<link>http://www.floatrates.com/eur/crc/</link>
+		<description>1 Euro = 569.66443717 Costa Rican Colón</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>CRC</targetCurrency>
+		<targetName>Costa Rican Colón</targetName>
+		<exchangeRate>569.66443717</exchangeRate>
+		<inverseRate>0.00175542</inverseRate>
+		<inverseDescription>1 Costa Rican Colón = 0.00175542 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 3.90874715 AED</title>
+		<link>http://www.floatrates.com/eur/aed/</link>
+		<description>1 Euro = 3.90874715 U.A.E Dirham</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>AED</targetCurrency>
+		<targetName>U.A.E Dirham</targetName>
+		<exchangeRate>3.90874715</exchangeRate>
+		<inverseRate>0.25583645</inverseRate>
+		<inverseDescription>1 U.A.E Dirham = 0.25583645 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 16756.26772647 IDR</title>
+		<link>http://www.floatrates.com/eur/idr/</link>
+		<description>1 Euro = 16756.26772647 Indonesian Rupiah</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>IDR</targetCurrency>
+		<targetName>Indonesian Rupiah</targetName>
+		<exchangeRate>16756.26772647</exchangeRate>
+		<inverseRate>0.00005968</inverseRate>
+		<inverseDescription>1 Indonesian Rupiah = 0.00005968 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 18.99042617 MXN</title>
+		<link>http://www.floatrates.com/eur/mxn/</link>
+		<description>1 Euro = 18.99042617 Mexican Peso</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>MXN</targetCurrency>
+		<targetName>Mexican Peso</targetName>
+		<exchangeRate>18.99042617</exchangeRate>
+		<inverseRate>0.05265811</inverseRate>
+		<inverseDescription>1 Mexican Peso = 0.05265811 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 427.96094132 AMD</title>
+		<link>http://www.floatrates.com/eur/amd/</link>
+		<description>1 Euro = 427.96094132 Armenia Dram</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>AMD</targetCurrency>
+		<targetName>Armenia Dram</targetName>
+		<exchangeRate>427.96094132</exchangeRate>
+		<inverseRate>0.00233666</inverseRate>
+		<inverseDescription>1 Armenia Dram = 0.00233666 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 7963.00107333 PYG</title>
+		<link>http://www.floatrates.com/eur/pyg/</link>
+		<description>1 Euro = 7963.00107333 Paraguayan Guaraní</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>PYG</targetCurrency>
+		<targetName>Paraguayan Guaraní</targetName>
+		<exchangeRate>7963.00107333</exchangeRate>
+		<inverseRate>0.00012558</inverseRate>
+		<inverseDescription>1 Paraguayan Guaraní = 0.00012558 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 5.26915161 BRL</title>
+		<link>http://www.floatrates.com/eur/brl/</link>
+		<description>1 Euro = 5.26915161 Brazilian Real</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>BRL</targetCurrency>
+		<targetName>Brazilian Real</targetName>
+		<exchangeRate>5.26915161</exchangeRate>
+		<inverseRate>0.18978387</inverseRate>
+		<inverseDescription>1 Brazilian Real = 0.18978387 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 88.95555729 INR</title>
+		<link>http://www.floatrates.com/eur/inr/</link>
+		<description>1 Euro = 88.95555729 Indian Rupee</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>INR</targetCurrency>
+		<targetName>Indian Rupee</targetName>
+		<exchangeRate>88.95555729</exchangeRate>
+		<inverseRate>0.01124157</inverseRate>
+		<inverseDescription>1 Indian Rupee = 0.01124157 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 142.21885784 NPR</title>
+		<link>http://www.floatrates.com/eur/npr/</link>
+		<description>1 Euro = 142.21885784 Nepalese Rupee</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>NPR</targetCurrency>
+		<targetName>Nepalese Rupee</targetName>
+		<exchangeRate>142.21885784</exchangeRate>
+		<inverseRate>0.00703142</inverseRate>
+		<inverseDescription>1 Nepalese Rupee = 0.00703142 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 663.63889331 XAF</title>
+		<link>http://www.floatrates.com/eur/xaf/</link>
+		<description>1 Euro = 663.63889331 Central African CFA Franc</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>XAF</targetCurrency>
+		<targetName>Central African CFA Franc</targetName>
+		<exchangeRate>663.63889331</exchangeRate>
+		<inverseRate>0.00150684</inverseRate>
+		<inverseDescription>1 Central African CFA Franc = 0.00150684 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 94.85097889 KGS</title>
+		<link>http://www.floatrates.com/eur/kgs/</link>
+		<description>1 Euro = 94.85097889 Kyrgyzstan Som</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>KGS</targetCurrency>
+		<targetName>Kyrgyzstan Som</targetName>
+		<exchangeRate>94.85097889</exchangeRate>
+		<inverseRate>0.01054285</inverseRate>
+		<inverseDescription>1 Kyrgyzstan Som = 0.01054285 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 7.45502288 DKK</title>
+		<link>http://www.floatrates.com/eur/dkk/</link>
+		<description>1 Euro = 7.45502288 Danish Krone</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>DKK</targetCurrency>
+		<targetName>Danish Krone</targetName>
+		<exchangeRate>7.45502288</exchangeRate>
+		<inverseRate>0.13413775</inverseRate>
+		<inverseDescription>1 Danish Krone = 0.13413775 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 350.76511313 LKR</title>
+		<link>http://www.floatrates.com/eur/lkr/</link>
+		<description>1 Euro = 350.76511313 Sri Lanka Rupee</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>LKR</targetCurrency>
+		<targetName>Sri Lanka Rupee</targetName>
+		<exchangeRate>350.76511313</exchangeRate>
+		<inverseRate>0.00285091</inverseRate>
+		<inverseDescription>1 Sri Lanka Rupee = 0.00285091 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 3.36804766 TND</title>
+		<link>http://www.floatrates.com/eur/tnd/</link>
+		<description>1 Euro = 3.36804766 Tunisian Dinar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>TND</targetCurrency>
+		<targetName>Tunisian Dinar</targetName>
+		<exchangeRate>3.36804766</exchangeRate>
+		<inverseRate>0.29690791</inverseRate>
+		<inverseDescription>1 Tunisian Dinar = 0.29690791 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 26020.61740068 VND</title>
+		<link>http://www.floatrates.com/eur/vnd/</link>
+		<description>1 Euro = 26020.61740068 Vietnamese Dong</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>VND</targetCurrency>
+		<targetName>Vietnamese Dong</targetName>
+		<exchangeRate>26020.61740068</exchangeRate>
+		<inverseRate>0.00003843</inverseRate>
+		<inverseDescription>1 Vietnamese Dong = 0.00003843 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 3.71677561 TMT</title>
+		<link>http://www.floatrates.com/eur/tmt/</link>
+		<description>1 Euro = 3.71677561 New Turkmenistan Manat</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>TMT</targetCurrency>
+		<targetName>New Turkmenistan Manat</targetName>
+		<exchangeRate>3.71677561</exchangeRate>
+		<inverseRate>0.26905041</inverseRate>
+		<inverseDescription>1 New Turkmenistan Manat = 0.26905041 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 300.15412263 PKR</title>
+		<link>http://www.floatrates.com/eur/pkr/</link>
+		<description>1 Euro = 300.15412263 Pakistani Rupee</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>PKR</targetCurrency>
+		<targetName>Pakistani Rupee</targetName>
+		<exchangeRate>300.15412263</exchangeRate>
+		<inverseRate>0.00333162</inverseRate>
+		<inverseDescription>1 Pakistani Rupee = 0.00333162 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1.95520608 BGN</title>
+		<link>http://www.floatrates.com/eur/bgn/</link>
+		<description>1 Euro = 1.95520608 Bulgarian Lev</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>BGN</targetCurrency>
+		<targetName>Bulgarian Lev</targetName>
+		<exchangeRate>1.95520608</exchangeRate>
+		<inverseRate>0.51145504</inverseRate>
+		<inverseDescription>1 Bulgarian Lev = 0.51145504 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 98.43591695 RUB</title>
+		<link>http://www.floatrates.com/eur/rub/</link>
+		<description>1 Euro = 98.43591695 Russian Rouble</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>RUB</targetCurrency>
+		<targetName>Russian Rouble</targetName>
+		<exchangeRate>98.43591695</exchangeRate>
+		<inverseRate>0.01015889</inverseRate>
+		<inverseDescription>1 Russian Rouble = 0.01015889 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 2.86744819 GEL</title>
+		<link>http://www.floatrates.com/eur/gel/</link>
+		<description>1 Euro = 2.86744819 Georgian lari</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>GEL</targetCurrency>
+		<targetName>Georgian lari</targetName>
+		<exchangeRate>2.86744819</exchangeRate>
+		<inverseRate>0.34874213</inverseRate>
+		<inverseDescription>1 Georgian lari = 0.34874213 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 3.99980763 SAR</title>
+		<link>http://www.floatrates.com/eur/sar/</link>
+		<description>1 Euro = 3.99980763 Saudi Riyal</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>SAR</targetCurrency>
+		<targetName>Saudi Riyal</targetName>
+		<exchangeRate>3.99980763</exchangeRate>
+		<inverseRate>0.25001202</inverseRate>
+		<inverseDescription>1 Saudi Riyal = 0.25001202 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 4.42270515 PLN</title>
+		<link>http://www.floatrates.com/eur/pln/</link>
+		<description>1 Euro = 4.42270515 Polish Zloty</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>PLN</targetCurrency>
+		<targetName>Polish Zloty</targetName>
+		<exchangeRate>4.42270515</exchangeRate>
+		<inverseRate>0.22610596</inverseRate>
+		<inverseDescription>1 Polish Zloty = 0.22610596 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 499.31919371 KZT</title>
+		<link>http://www.floatrates.com/eur/kzt/</link>
+		<description>1 Euro = 499.31919371 Kazakhstani Tenge</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>KZT</targetCurrency>
+		<targetName>Kazakhstani Tenge</targetName>
+		<exchangeRate>499.31919371</exchangeRate>
+		<inverseRate>0.00200273</inverseRate>
+		<inverseDescription>1 Kazakhstani Tenge = 0.00200273 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 4309.38881615 COP</title>
+		<link>http://www.floatrates.com/eur/cop/</link>
+		<description>1 Euro = 4309.38881615 Colombian Peso</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>COP</targetCurrency>
+		<targetName>Colombian Peso</targetName>
+		<exchangeRate>4309.38881615</exchangeRate>
+		<inverseRate>0.00023205</inverseRate>
+		<inverseDescription>1 Colombian Peso = 0.00023205 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 0.40162605 BHD</title>
+		<link>http://www.floatrates.com/eur/bhd/</link>
+		<description>1 Euro = 0.40162605 Bahrain Dinar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>BHD</targetCurrency>
+		<targetName>Bahrain Dinar</targetName>
+		<exchangeRate>0.40162605</exchangeRate>
+		<inverseRate>2.48987831</inverseRate>
+		<inverseDescription>1 Bahrain Dinar = 2.48987831 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 32.98835257 EGP</title>
+		<link>http://www.floatrates.com/eur/egp/</link>
+		<description>1 Euro = 32.98835257 Egyptian Pound</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>EGP</targetCurrency>
+		<targetName>Egyptian Pound</targetName>
+		<exchangeRate>32.98835257</exchangeRate>
+		<inverseRate>0.03031373</inverseRate>
+		<inverseDescription>1 Egyptian Pound = 0.03031373 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1407.30390178 KRW</title>
+		<link>http://www.floatrates.com/eur/krw/</link>
+		<description>1 Euro = 1407.30390178 South Korean Won</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>KRW</targetCurrency>
+		<targetName>South Korean Won</targetName>
+		<exchangeRate>1407.30390178</exchangeRate>
+		<inverseRate>0.00071058</inverseRate>
+		<inverseDescription>1 South Korean Won = 0.00071058 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 144.11138049 DZD</title>
+		<link>http://www.floatrates.com/eur/dzd/</link>
+		<description>1 Euro = 144.11138049 Algerian Dinar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>DZD</targetCurrency>
+		<targetName>Algerian Dinar</targetName>
+		<exchangeRate>144.11138049</exchangeRate>
+		<inverseRate>0.00693908</inverseRate>
+		<inverseDescription>1 Algerian Dinar = 0.00693908 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1.06792434 PAB</title>
+		<link>http://www.floatrates.com/eur/pab/</link>
+		<description>1 Euro = 1.06792434 Panamanian Balboa</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>PAB</targetCurrency>
+		<targetName>Panamanian Balboa</targetName>
+		<exchangeRate>1.06792434</exchangeRate>
+		<inverseRate>0.93639592</inverseRate>
+		<inverseDescription>1 Panamanian Balboa = 0.93639592 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 8.34049168 HKD</title>
+		<link>http://www.floatrates.com/eur/hkd/</link>
+		<description>1 Euro = 8.34049168 Hong Kong Dollar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>HKD</targetCurrency>
+		<targetName>Hong Kong Dollar</targetName>
+		<exchangeRate>8.34049168</exchangeRate>
+		<inverseRate>0.11989701</inverseRate>
+		<inverseDescription>1 Hong Kong Dollar = 0.11989701 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 10.91055526 MAD</title>
+		<link>http://www.floatrates.com/eur/mad/</link>
+		<description>1 Euro = 10.91055526 Moroccan Dirham</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>MAD</targetCurrency>
+		<targetName>Moroccan Dirham</targetName>
+		<exchangeRate>10.91055526</exchangeRate>
+		<inverseRate>0.09165436</inverseRate>
+		<inverseDescription>1 Moroccan Dirham = 0.09165436 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 20.01350738 ZAR</title>
+		<link>http://www.floatrates.com/eur/zar/</link>
+		<description>1 Euro = 20.01350738 South African Rand</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>ZAR</targetCurrency>
+		<targetName>South African Rand</targetName>
+		<exchangeRate>20.01350738</exchangeRate>
+		<inverseRate>0.04996625</inverseRate>
+		<inverseDescription>1 South African Rand = 0.04996625 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 1391.12029265 IQD</title>
+		<link>http://www.floatrates.com/eur/iqd/</link>
+		<description>1 Euro = 1391.12029265 Iraqi dinar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>IQD</targetCurrency>
+		<targetName>Iraqi dinar</targetName>
+		<exchangeRate>1391.12029265</exchangeRate>
+		<inverseRate>0.00071885</inverseRate>
+		<inverseDescription>1 Iraqi dinar = 0.00071885 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 7.32596099 BOB</title>
+		<link>http://www.floatrates.com/eur/bob/</link>
+		<description>1 Euro = 7.32596099 Bolivian Boliviano</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>BOB</targetCurrency>
+		<targetName>Bolivian Boliviano</targetName>
+		<exchangeRate>7.32596099</exchangeRate>
+		<inverseRate>0.13650086</inverseRate>
+		<inverseDescription>1 Bolivian Boliviano = 0.13650086 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 0.32995111 KWD</title>
+		<link>http://www.floatrates.com/eur/kwd/</link>
+		<description>1 Euro = 0.32995111 Kuwaiti Dinar</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>KWD</targetCurrency>
+		<targetName>Kuwaiti Dinar</targetName>
+		<exchangeRate>0.32995111</exchangeRate>
+		<inverseRate>3.03075208</inverseRate>
+		<inverseDescription>1 Kuwaiti Dinar = 3.03075208 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 38.28785945 THB</title>
+		<link>http://www.floatrates.com/eur/thb/</link>
+		<description>1 Euro = 38.28785945 Thai Baht</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>THB</targetCurrency>
+		<targetName>Thai Baht</targetName>
+		<exchangeRate>38.28785945</exchangeRate>
+		<inverseRate>0.02611794</inverseRate>
+		<inverseDescription>1 Thai Baht = 0.02611794 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 34.52814895 TWD</title>
+		<link>http://www.floatrates.com/eur/twd/</link>
+		<description>1 Euro = 34.52814895 New Taiwan Dollar </description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>TWD</targetCurrency>
+		<targetName>New Taiwan Dollar </targetName>
+		<exchangeRate>34.52814895</exchangeRate>
+		<inverseRate>0.02896188</inverseRate>
+		<inverseDescription>1 New Taiwan Dollar  = 0.02896188 Euro</inverseDescription>
+	</item>
+	<item>
+		<title>1 EUR = 12992.23322384 UZS</title>
+		<link>http://www.floatrates.com/eur/uzs/</link>
+		<description>1 Euro = 12992.23322384 Uzbekistan Sum</description>
+		<pubDate>Sat, 11 Nov 2023 23:55:01 GMT</pubDate>
+		<baseCurrency>EUR</baseCurrency>
+		<baseName>Euro</baseName>
+		<targetCurrency>UZS</targetCurrency>
+		<targetName>Uzbekistan Sum</targetName>
+		<exchangeRate>12992.23322384</exchangeRate>
+		<inverseRate>0.00007697</inverseRate>
+		<inverseDescription>1 Uzbekistan Sum = 0.00007697 Euro</inverseDescription>
+	</item>
+</channel>
