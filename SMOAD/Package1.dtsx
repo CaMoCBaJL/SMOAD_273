@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="84"
-  DTS:VersionGUID="{2E7BE38E-3581-4AEB-8B83-DF4A1B962456}">
+  DTS:VersionBuild="105"
+  DTS:VersionGUID="{5E28AF3D-CC63-4C6D-B44C-0F0252FEEEA9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3356,45 +3356,45 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   name="Data Conversion Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input].Columns[ProductKey (1)]"
-                      cachedDataType="i4"
-                      cachedName="ProductKey (1)"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ProductKey (1)]" />
+                      refId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input].Columns[ProductKey]"
+                      cachedDataType="r8"
+                      cachedName="ProductKey"
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ProductKey]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input].Columns[ShipDateKey]"
                       cachedDataType="r8"
                       cachedName="ShipDateKey"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ShipDateKey]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ShipDateKey]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input].Columns[DueDateKey]"
                       cachedDataType="r8"
                       cachedName="DueDateKey"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[DueDateKey]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[DueDateKey]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input].Columns[CustomerKey]"
                       cachedDataType="r8"
                       cachedName="CustomerKey"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[CustomerKey]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[CustomerKey]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input].Columns[OrderDateKey]"
                       cachedDataType="r8"
                       cachedName="OrderDateKey"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[OrderDateKey]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[OrderDateKey]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input].Columns[Order Quantity]"
                       cachedDataType="r8"
                       cachedName="Order Quantity"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Order Quantity]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Order Quantity]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input].Columns[Extended Amount]"
                       cachedDataType="cy"
                       cachedName="Extended Amount"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Extended Amount]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Extended Amount]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input].Columns[Sales Amount]"
                       cachedDataType="cy"
                       cachedName="Sales Amount"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Sales Amount]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Sales Amount]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -3420,7 +3420,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ProductKey (1)]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ProductKey]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3441,7 +3441,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ShipDateKey]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ShipDateKey]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3462,7 +3462,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[DueDateKey]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[DueDateKey]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3483,7 +3483,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[CustomerKey]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[CustomerKey]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3504,7 +3504,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[OrderDateKey]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[OrderDateKey]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3525,7 +3525,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Order Quantity]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Order Quantity]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3546,7 +3546,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Extended Amount]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Extended Amount]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3567,7 +3567,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Sales Amount]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Sales Amount]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3995,6 +3995,925 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       lineageId="Package\Update sales data from excel\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Update sales data from excel\Log file parsing"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;13"
+              description="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum."
+              name="Log file parsing"
+              version="13">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Stores the source code of the component"
+                  isArray="true"
+                  name="SourceCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="30">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services component wrapper
+*  This module defines the base class for your component
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+
+public class UserComponent: ScriptComponent
+{
+    public Connections Connections;
+    public Variables Variables;
+    public UserComponent()
+    {
+        Connections = new Connections(this);
+        Variables = new Variables(this);
+    }
+
+    public override void ProcessInput(int InputID, string InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
+    {
+
+        if (InputName.Equals(@"Input 0", StringComparison.Ordinal))
+        {
+            Input0_ProcessInput(new Input0Buffer(Buffer, GetColumnIndexes(InputID), OutputMap));
+        }
+
+    }
+
+    public virtual void Input0_ProcessInput(Input0Buffer Buffer)
+    {
+        while (Buffer.NextRow())
+        {
+            Input0_ProcessInputRow(Buffer);
+        }
+    }
+
+    public virtual void Input0_ProcessInputRow(Input0Buffer Row)
+    {
+    }
+
+}
+
+public class Connections
+{
+    ScriptComponent ParentComponent;
+
+    public Connections(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+
+public class Variables
+{
+    ScriptComponent ParentComponent;
+
+    public Variables(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.resx]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[main.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[#region Help:  Introduction to the Script Component
+/* The Script Component allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services data flow.
+ *
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script component. */
+#endregion
+
+#region Namespaces
+using System;
+using System.Data;
+using System.Text;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+#endregion
+
+/// <summary>
+/// This is the class to which to add your code.  Do not change the name, attributes, or parent
+/// of this class.
+/// </summary>
+[Microsoft.SqlServer.Dts.Pipeline.SSISScriptComponentEntryPointAttribute]
+public class ScriptMain : UserComponent
+{
+    #region Help:  Using Integration Services variables and parameters
+    /* To use a variable in this script, first ensure that the variable has been added to
+     * either the list contained in the ReadOnlyVariables property or the list contained in
+     * the ReadWriteVariables property of this script component, according to whether or not your
+     * code needs to write into the variable.  To do so, save this script, close this instance of
+     * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
+     * Script Transformation Editor window.
+     * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+     *
+     * Example of reading from a variable or parameter:
+     *  DateTime startTime = Variables.MyStartTime;
+     *
+     * Example of writing to a variable:
+     *  Variables.myStringVariable = "new value";
+     */
+    #endregion
+
+    #region Help:  Using Integration Services Connnection Managers
+    /* Some types of connection managers can be used in this script component.  See the help topic
+     * "Working with Connection Managers Programatically" for details.
+     *
+     * To use a connection manager in this script, first ensure that the connection manager has
+     * been added to either the list of connection managers on the Connection Managers page of the
+     * script component editor.  To add the connection manager, save this script, close this instance of
+     * Visual Studio, and add the Connection Manager to the list.
+     *
+     * If the component needs to hold a connection open while processing rows, override the
+     * AcquireConnections and ReleaseConnections methods.
+     * 
+     * Example of using an ADO.Net connection manager to acquire a SqlConnection:
+     *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
+     *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
+     *
+     * Example of using a File connection manager to acquire a file path:
+     *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
+     *  string filePath = (string)rawConnection;
+     *
+     * Example of releasing a connection manager:
+     *  Connections.SalesDB.ReleaseConnection(rawConnection);
+     */
+    #endregion
+
+    #region Help:  Firing Integration Services Events
+    /* This script component can fire events.
+     *
+     * Example of firing an error event:
+     *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
+     *
+     * Example of firing an information event:
+     *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
+     *
+     * Example of firing a warning event:
+     *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
+     */
+    #endregion
+
+    /// <summary>
+    /// This method is called once, before rows begin to be processed in the data flow.
+    ///
+    /// You can remove this method if you don't need to do anything here.
+    /// </summary>
+    public override void PreExecute()
+    {
+        base.PreExecute();
+    }
+
+    /// <summary>
+    /// This method is called after all the rows have passed through this component.
+    ///
+    /// You can delete this method if you don't need to do anything here.
+    /// </summary>
+    public override void PostExecute()
+    {
+        base.PostExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called once for every row that passes through the component from Input0.
+    ///
+    /// Example of reading a value from a column in the the row:
+    ///  string zipCode = Row.ZipCode
+    ///
+    /// Example of writing a value to a column in the row:
+    ///  Row.ZipCode = zipCode
+    /// </summary>
+    /// <param name="Row">The row that is currently passing through the component</param>
+    public override void Input0_ProcessInputRow(Input0Buffer Row)
+    {
+        var errorText = $"Error on column {Row.ErrorColumn}." +
+            $" Error code: {Row.ErrorCode}";
+
+        Row.ErrorDescription = errorText;
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[BufferWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services buffer wrappers
+*  This module defines classes for accessing data flow buffers
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+
+public class Input0Buffer: ScriptBuffer
+
+{
+    public Input0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
+        : base(Buffer, BufferColumnIndexes, OutputMap)
+    {
+    }
+
+    public Int32 ErrorCode
+    {
+        get
+        {
+            return Buffer.GetInt32(BufferColumnIndexes[0]);
+        }
+    }
+    public bool ErrorCode_IsNull
+    {
+        get
+        {
+            return IsNull(0);
+        }
+    }
+
+    public Int32 ErrorColumn
+    {
+        get
+        {
+            return Buffer.GetInt32(BufferColumnIndexes[1]);
+        }
+    }
+    public bool ErrorColumn_IsNull
+    {
+        get
+        {
+            return IsNull(1);
+        }
+    }
+
+    public String ErrorDescription
+    {
+        set
+        {
+            this[2] = value;
+        }
+    }
+    public bool ErrorDescription_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(2);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    new public bool NextRow()
+    {
+        return base.NextRow();
+    }
+
+    new public bool EndOfRowset()
+    {
+        return base.EndOfRowset();
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_0e69f83c5a164f97a97be75874eb0502.Properties.Settings.get_Default():SC_0e69f83c5a164f97a97be75874eb0502.Properties.Sett" +
+    "ings")]
+
+namespace SC_0e69f83c5a164f97a97be75874eb0502.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_0e69f83c5a164f97a97be75874eb0502.csproj]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24a13314-35fc-4324-800d-69bf6038b2b9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC_0e69f83c5a164f97a97be75874eb0502</RootNamespace>
+    <AssemblyName>SC_999DAA35F6D84ECD923A42BE49C93793</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.TxScript, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Compile Include="main.cs" />
+    <Compile Include="BufferWrapper.cs" />
+    <Compile Include="ComponentWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- This section defines VSTA properties that describe the host-changable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="ScriptComponent" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoExeName="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
+        <Host Name="ScriptComponent" GeneratedNamespace="SC_0e69f83c5a164f97a97be75874eb0502" IconIndex="0"></Host>
+        <ProjectClient>
+          <HostIdentifier>SSIS_SC160</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Project]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>SC_0e69f83c5a164f97a97be75874eb0502</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>SC_0e69f83c5a164f97a97be75874eb0502</msb:DisplayName>
+    <msb:ProjectId>{F5CB5FB6-D043-47B1-B83E-7C866DDA7B92}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="SC_0e69f83c5a164f97a97be75874eb0502.csproj" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="main.cs" />
+    <msb:File Include="BufferWrapper.cs" />
+    <msb:File Include="ComponentWrapper.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\AssemblyInfo.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("SC_0e69f83c5a164f97a97be75874eb0502")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("SC_0e69f83c5a164f97a97be75874eb0502")]
+[assembly: AssemblyCopyright("Copyright @  2023")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.0.0")]
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.settings]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_0e69f83c5a164f97a97be75874eb0502.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_0e69f83c5a164f97a97be75874eb0502.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_0e69f83c5a164f97a97be75874eb0502.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace SC_0e69f83c5a164f97a97be75874eb0502.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_0e69f83c5a164f97a97be75874eb0502.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Stores the binary representation of the component"
+                  isArray="true"
+                  name="BinaryCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="2">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_999DAA35F6D84ECD923A42BE49C93793.dll]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAF/8WWUAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAA2jIA
+AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAIgyAABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
+AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAA4BIAAAAgAAAAFAAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAWAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAC8
+MgAAAAAAAEgAAAACAAUA/CEAANQPAAABAAAAAAAAANAxAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACioTMAMAOAAAAAEAABFyAQAAcANv
+CAAABowaAAABKBIAAApyKwAAcANvBgAABowaAAABKBIAAAooEwAACgoDBm8KAAAGKh4CKA4AAAYq
+KgIDBAUoFAAACipSAnsVAAAKAnsWAAAKFpRvFwAACioiAhYoGAAACipSAnsVAAAKAnsWAAAKF5Rv
+FwAACioiAhcoGAAACiomAhgDKBkAAAoqWgMsCAIYKBoAAAoqck0AAHBzGwAACnoeAigcAAAKKh4C
+KB0AAAoqfgIoHgAACgICcxIAAAZ9AQAABAICcxMAAAZ9AgAABCqSBHLqAABwGm8fAAAKLBUCBQID
+KCAAAAoOBHMFAAAGbxAAAAYqSisHAgNvEQAABgNvDAAABi3xKgYqOgIoIQAACgIDfQMAAAQqOgIo
+IQAACgIDfQQAAAQqHgIoIQAACiqufgUAAAQtHnL6AABw0AcAAAIoIgAACm8jAAAKcyQAAAqABQAA
+BH4FAAAEKhp+BgAABCoeAoAGAAAEKhp+BwAABCoeAiglAAAKKi5zGQAABoAHAAAEKgAAQlNKQgEA
+AQAAAAAADAAAAHY0LjAuMzAzMTkAAAAABQBsAAAAsAUAACN+AAAcBgAAhAYAACNTdHJpbmdzAAAA
+AKAMAABsAQAAI1VTAAwOAAAQAAAAI0dVSUQAAAAcDgAAuAEAACNCbG9iAAAAAAAAAAIAAAFXFaIB
+CQEAAAD6ATMAFgAAAQAAACAAAAAIAAAABwAAABoAAAAPAAAAJQAAABAAAAABAAAAAwAAAAkAAAAK
+AAAAAQAAAAQAAAABAAAAAAABAwEAAAAAAAYA+wGtBAYAjwKtBAYARwGaBA8AIQUAAAYAdAHaAwYA
+3gHaAwYAvwHaAwYAdgLaAwYAGwLaAwYANALaAwYAiwHaAwYApgHKAgoATwKUAAoAbASUAA4AXQSU
+AAoAOASUAAoA9QWUAAYAuAWCAwYAKgGaBAYAfQTNBAYALATFAxIA+gDrAhIAWwHrAhIA4gCwAwYA
+DwGtBAYABACCAwYA5AKCAwYA7AOCAwYAGwSCAwYAtQCCAwYAZgCCAwYAegbaAwAAAAAuAAAAAAAB
+AAEAAQAQAJUDAAAQAAEAAQABABAAUAQAADkAAQAFAAEAEADXBQAARQABAA4AAQAQAJ4FAABJAAMA
+EgABABAAXwUAAEkABAATAAAAEADUBDAFSQAFABQAAAEQAI4FMAVhAAcAGAAGAJ4FhQAGAF8FiQAB
+AOUFjQABAOUFjQARAIkDkQARANIAlQARAEgAmQBQIAAAAADGAK0CBgABAFggAAAAAMYAuAIGAAEA
+YCAAAAAAxgBXBp0AAQCkIAAAAACGGI0EBgACAKwgAAAAAIYYjQQrAAIAtyAAAAAAhghYAKMABQDM
+IAAAAACGCCkDTQAFANUgAAAAAIYIoAOjAAUA6iAAAAAAhgg+A00ABQDzIAAAAACGCAYEEAAFAP0g
+AAAAAIYIVQOnAAYAFCEAAAAAhgBuBk0ABwAcIQAAAACGAL8FTQAHACQhAAAAAIYYjQQGAAcARCEA
+AAAAxgBKBqwABwBpIQAAAADGAUMGnQALAHwhAAAAAMYBVwadAAwAfiEAAAAAhhiNBLYADQCNIQAA
+AACGGI0EtgAOAJwhAAAAAIMYjQQGAA8ApCEAAAAAkwh5BLwADwDQIQAAAACTCLoAwQAPANchAAAA
+AJMIxgDGAA8A3yEAAAAAlgjLBcwAEADmIQAAAACGGI0EBgAQAO4hAAAAAJEYkwTRABAAAAABAHIG
+AAABAHIEAAACAGkFAAADAEYEAAABAMQCAAABAMQCAAABADcAAAACAIoAAAADAHIEAAAEAEYEAAAB
+AHIEAAABAHIGAAABAPsFAAABAPsFAAABAMQCCQCNBAEAEQCNBAYAGQCNBAoAKQCNBBAAMQCNBBAA
+OQCNBBAAQQCNBBAASQCNBBAAUQCNBBAAWQCNBBAAYQCNBBAAaQCNBAYAmQCNBAYAuQCNBBUAyQCN
+BAYAiQCtAgYAiQC4AgYA2QCxBR8A2QCqBSUAcQCNBCsAcQByBDUAcQBpBTkAeQABAD0AcQBqA0IA
+cQB5A0cAcQBxAwEA4QCNBBAAcQBuBk0AcQC/BU0AiQCNBAYA2QCXBVEAiQB9BVgAkQCNBAYA8QB4
+AF4A8QB2BmUAoQCNBGsAwQCNBAYALgALAPAALgATAPkALgAbABgBLgAjACEBLgArAEoBLgAzAEoB
+LgA7AEoBLgBDACEBLgBLAFABLgBTAEoBLgBbAGcBQwBjALEB4QB7ALEB4wBrALEB6QBzABgBCQFz
+ABgBGwADAAEABwAHAAgACQAAAFwA1QAAAC0D2QAAAKQD1QAAAEID2QAAAAoE3QAAAFkD2QAAAH0E
+4QAAANoA5gAAAM8F6wACAAYAAwACAAcABQACAAgABwACAAkACQABAAoACwABAAsADQACABUADwAC
+ABYAEQABABcAEQACABgAEwAEgAAAAQAAAAAAAAAAAAAAAAAKAAAABAAAAAAAAAAAAAAAcwA/AAAA
+AAAQAAAAAAAAAAAAAAB8AAUGAAAAABAAAAAAAAAAAAAAAHwAIgYAAAAABAAAAAAAAAAAAAAAcwCC
+AwAAAAAAAAAAAQAAAN4EAAAAAABHZXRJbnQzMgBTQ185OTlEQUEzNUY2RDg0RUNEOTIzQTQyQkU0
+OUM5Mzc5MwA8TW9kdWxlPgBJbnB1dElEAG1zY29ybGliAGRlZmF1bHRJbnN0YW5jZQBnZXRfRXJy
+b3JDb2RlAFJ1bnRpbWVUeXBlSGFuZGxlAEdldFR5cGVGcm9tSGFuZGxlAElucHV0TmFtZQBNaWNy
+b3NvZnQuU3FsU2VydmVyLkR0cy5QaXBlbGluZQBUeXBlAGdldF9DdWx0dXJlAHNldF9DdWx0dXJl
+AHJlc291cmNlQ3VsdHVyZQBBcHBsaWNhdGlvblNldHRpbmdzQmFzZQBFZGl0b3JCcm93c2FibGVT
+dGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBEZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmli
+dXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5
+VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtBdHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3Jr
+QXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0
+aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9k
+dWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0cmlidXRlAFNTSVNTY3JpcHRDb21wb25l
+bnRFbnRyeVBvaW50QXR0cmlidXRlAEFzc2VtYmx5Q29tcGFueUF0dHJpYnV0ZQBSdW50aW1lQ29t
+cGF0aWJpbGl0eUF0dHJpYnV0ZQBQcmVFeGVjdXRlAFBvc3RFeGVjdXRlAHZhbHVlAFN5c3RlbS5S
+dW50aW1lLlZlcnNpb25pbmcAU3RyaW5nAFN5c3RlbS5Db21wb25lbnRNb2RlbABTQ185OTlEQUEz
+NUY2RDg0RUNEOTIzQTQyQkU0OUM5Mzc5My5kbGwAZ2V0X0Vycm9yQ29kZV9Jc051bGwAZ2V0X0Vy
+cm9yQ29sdW1uX0lzTnVsbABzZXRfRXJyb3JEZXNjcmlwdGlvbl9Jc051bGwAU2V0TnVsbABzZXRf
+SXRlbQBTeXN0ZW0AcmVzb3VyY2VNYW4AU2NyaXB0TWFpbgBnZXRfRXJyb3JDb2x1bW4AU3lzdGVt
+LkNvbmZpZ3VyYXRpb24AU3lzdGVtLkdsb2JhbGl6YXRpb24AU3lzdGVtLlJlZmxlY3Rpb24ASW52
+YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbgBzZXRfRXJyb3JEZXNjcmlwdGlvbgBTdHJpbmdDb21wYXJp
+c29uAEN1bHR1cmVJbmZvAE91dHB1dE5hbWVNYXAAT3V0cHV0TWFwAElucHV0MEJ1ZmZlcgBQaXBl
+bGluZUJ1ZmZlcgBTY3JpcHRCdWZmZXIAZ2V0X1Jlc291cmNlTWFuYWdlcgAuY3RvcgAuY2N0b3IA
+U3lzdGVtLkRpYWdub3N0aWNzAFN5c3RlbS5SdW50aW1lLkNvbXBpbGVyU2VydmljZXMAU3lzdGVt
+LlJlc291cmNlcwBTQ18wZTY5ZjgzYzVhMTY0Zjk3YTk3YmU3NTg3NGViMDUwMi5Qcm9wZXJ0aWVz
+LlJlc291cmNlcy5yZXNvdXJjZXMARGVidWdnaW5nTW9kZXMAU0NfMGU2OWY4M2M1YTE2NGY5N2E5
+N2JlNzU4NzRlYjA1MDIuUHJvcGVydGllcwBWYXJpYWJsZXMAQnVmZmVyQ29sdW1uSW5kZXhlcwBH
+ZXRDb2x1bW5JbmRleGVzAFNldHRpbmdzAEVxdWFscwBDb25uZWN0aW9ucwBDb25jYXQARm9ybWF0
+AE9iamVjdABFbmRPZlJvd3NldABnZXRfRGVmYXVsdABVc2VyQ29tcG9uZW50AFBhcmVudENvbXBv
+bmVudABTY3JpcHRDb21wb25lbnQATWljcm9zb2Z0LlNxbFNlcnZlci5UeFNjcmlwdABNaWNyb3Nv
+ZnQuU3FsU2VydmVyLlBpcGVsaW5lSG9zdABJbnB1dDBfUHJvY2Vzc0lucHV0AElucHV0MF9Qcm9j
+ZXNzSW5wdXRSb3cATmV4dFJvdwBnZXRfQXNzZW1ibHkAAAApRQByAHIAbwByACAAbwBuACAAYwBv
+AGwAdQBtAG4AIAB7ADAAfQAuAAAhIABFAHIAcgBvAHIAIABjAG8AZABlADoAIAB7ADAAfQAAgJtJ
+AHMATgB1AGwAbAAgAHAAcgBvAHAAZQByAHQAeQAgAGMAYQBuAG4AbwB0ACAAYgBlACAAcwBlAHQA
+IAB0AG8AIABGAGEAbABzAGUALgAgAEEAcwBzAGkAZwBuACAAYQAgAHYAYQBsAHUAZQAgAHQAbwAg
+AHQAaABlACAAYwBvAGwAdQBtAG4AIABpAG4AcwB0AGUAYQBkAC4AAA9JAG4AcAB1AHQAIAAwAABx
+UwBDAF8AMABlADYAOQBmADgAMwBjADUAYQAxADYANABmADkANwBhADkANwBiAGUANwA1ADgANwA0
+AGUAYgAwADUAMAAyAC4AUAByAG8AcABlAHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAAA0
+a7+HSHJzT5fBnZHCHnG9AAQgAQEIAyAAAQUgAQEREQQgAQEOBSABARFZAwcBDgUAAg4OHAUAAg4O
+DgkgAwESPR0IEkEDBhI9AwYdCAQgAQgIBCABAggFIAIBCBwDIAACBiACAg4RdQUgAR0ICAYAARJ5
+EX0FIAASgIEHIAIBDhKAgQi3elxWGTTgiQiJhF3NgIDMkQMGEhQDBhIYAwYSRQMGElEDBhJVAwYS
+IAUgAQESDAMgAAgEIAEBAgkgBAEIDhI9EkEFIAEBEkUEAAASUQQAABJVBQABARJVBAAAEiADAAAB
+AygACAMoAAIDKAAOBAgAElEECAASVQQIABIgCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0
+aW9uVGhyb3dzAQgBAAIAAAAAACgBACNTQ18wZTY5ZjgzYzVhMTY0Zjk3YTk3YmU3NTg3NGViMDUw
+MgAABQEAAAAAFgEAEUNvcHlyaWdodCBAICAyMDIzAABJAQAaLk5FVEZyYW1ld29yayxWZXJzaW9u
+PXY0LjcBAFQOFEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuNwQBAAAAAAC0
+AAAAzsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGli
+LCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVj
+NTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAAAAAAAAAA
+AFBBRFBBRFC0AAAAsDIAAAAAAAAAAAAAyjIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAALwyAAAA
+AAAAAAAAAAAAX0NvckRsbE1haW4AbXNjb3JlZS5kbGwAAAAAAP8lACAAEAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA
+SAAAAFhAAADsAwAAAAAAAAAAAADsAzQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAA
+AAAAvQTv/gAAAQAAAAEAAAAAAAAAAQAAAAAAPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
+AAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBu
+AAAAAAAAALAETAMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAKAMAAAEAMAAwADAA
+MAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBu
+AHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAA
+AABTAEMAXwAwAGUANgA5AGYAOAAzAGMANQBhADEANgA0AGYAOQA3AGEAOQA3AGIAZQA3ADUAOAA3
+ADQAZQBiADAANQAwADIAAAAwAAgAAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4A
+MAAuADAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMAQwBfADkAOQA5AEQAQQBB
+ADMANQBGADYARAA4ADQARQBDAEQAOQAyADMAQQA0ADIAQgBFADQAOQBDADkAMwA3ADkAMwAuAGQA
+bABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAQwBvAHAAeQByAGkAZwBo
+AHQAIABAACAAIAAyADAAMgAzAAAAKgABAAEATABlAGcAYQBsAFQAcgBhAGQAZQBtAGEAcgBrAHMA
+AAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEAbQBlAAAAUwBDAF8AOQA5
+ADkARABBAEEAMwA1AEYANgBEADgANABFAEMARAA5ADIAMwBBADQAMgBCAEUANAA5AEMAOQAzADcA
+OQAzAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUAAAAAAFMAQwBfADAAZQA2
+ADkAZgA4ADMAYwA1AGEAMQA2ADQAZgA5ADcAYQA5ADcAYgBlADcANQA4ADcANABlAGIAMAA1ADAA
+MgAAADQACAABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AMAAuADAAAAA4
+AAgAAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgAwAC4AMAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAA3DIAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the Microsoft Visual Studio Tools for Applications project. Project names must be unique within a package."
+                  name="VSTAProjectName"
+                  typeConverter="NOTBROWSABLE">SC_999daa35f6d84ecd923a42be49c93793</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the programming language used by the script."
+                  name="ScriptLanguage"
+                  typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a comma-separated list of read-only variables."
+                  name="ReadOnlyVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a comma-separated list of read/write variables."
+                  name="ReadWriteVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="List of breakpoints present on the script."
+                  isArray="true"
+                  name="BreakpointCollection"
+                  typeConverter="NOTBROWSABLE">
+                  <arrayElements
+                    arrayElementCount="0" />
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Checksum to match component metedata against compiled codes."
+                  name="MetadataChecksum140"
+                  typeConverter="NOTBROWSABLE">B9</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Update sales data from excel\Log file parsing.Inputs[Input 0]"
+                  hasSideEffects="true"
+                  name="Input 0">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Log file parsing.Inputs[Input 0].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      lineageId="Package\Update sales data from excel\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Log file parsing.Inputs[Input 0].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      lineageId="Package\Update sales data from excel\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Update sales data from excel\Log file parsing.Outputs[Output 0]"
+                  name="Output 0"
+                  synchronousInputId="Package\Update sales data from excel\Log file parsing.Inputs[Input 0]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Update sales data from excel\Log file parsing.Outputs[Output 0].Columns[ErrorDescription]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Update sales data from excel\Log file parsing.Outputs[Output 0].Columns[ErrorDescription]"
+                      name="ErrorDescription" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -4950,700 +5869,341 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               </outputs>
             </component>
             <component
-              refId="Package\Update sales data from excel\Merge Join"
-              componentClassID="Microsoft.MergeJoin"
-              contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
-              name="Merge Join"
+              refId="Package\Update sales data from excel\Merge"
+              componentClassID="Microsoft.Merge"
+              contactInfo="Merge;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combines rows from multiple sorted data flows into one sorted data flow. Unlike the Merge Join, all rows flow to the output. For example, combine two sorted lists of customers into a single sorted list. If sorting is not important, use the Union All transformation. "
+              name="Merge"
               version="1">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the type of join to perform."
-                  name="JoinType"
-                  typeConverter="JoinType">2</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the number of columns in the ordering key."
-                  name="NumKeyColumns">1</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the null values are treated as equal values."
-                  name="TreatNullsAsEqual">true</property>
-                <property
-                  dataType="System.Int32"
-                  description="Indicates the requested maximum buffers per input before blocking."
-                  name="MaxBuffersPerInput">5</property>
-              </properties>
               <inputs>
                 <input
-                  refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input]"
-                  hasSideEffects="true"
-                  name="Merge Join Right Input">
+                  refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1]"
+                  name="Merge Input 1">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[Copy of ProductKey]"
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[ProductKey]"
+                      cachedDataType="r8"
+                      cachedName="ProductKey"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[ProductKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ProductKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[SalesOrderLineKey]"
+                      cachedDataType="r8"
+                      cachedName="SalesOrderLineKey"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[SalesOrderLineKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[SalesOrderLineKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[ResellerKey]"
+                      cachedDataType="r8"
+                      cachedName="ResellerKey"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[ResellerKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ResellerKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[CustomerKey]"
+                      cachedDataType="r8"
+                      cachedName="CustomerKey"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[CustomerKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[CustomerKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[OrderDateKey]"
+                      cachedDataType="r8"
+                      cachedName="OrderDateKey"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[OrderDateKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[OrderDateKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[DueDateKey]"
+                      cachedDataType="r8"
+                      cachedName="DueDateKey"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[DueDateKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[DueDateKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[ShipDateKey]"
+                      cachedDataType="r8"
+                      cachedName="ShipDateKey"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[ShipDateKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ShipDateKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[SalesTerritoryKey]"
+                      cachedDataType="r8"
+                      cachedName="SalesTerritoryKey"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[SalesTerritoryKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[SalesTerritoryKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[Order Quantity]"
+                      cachedDataType="r8"
+                      cachedName="Order Quantity"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Order Quantity]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Order Quantity]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[Unit Price]"
+                      cachedDataType="cy"
+                      cachedName="Unit Price"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Unit Price]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Unit Price]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[Extended Amount]"
+                      cachedDataType="cy"
+                      cachedName="Extended Amount"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Extended Amount]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Extended Amount]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[Unit Price Discount Pct]"
+                      cachedDataType="r8"
+                      cachedName="Unit Price Discount Pct"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Unit Price Discount Pct]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Unit Price Discount Pct]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[Product Standard Cost]"
+                      cachedDataType="cy"
+                      cachedName="Product Standard Cost"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Product Standard Cost]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Product Standard Cost]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[Total Product Cost]"
+                      cachedDataType="cy"
+                      cachedName="Total Product Cost"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Total Product Cost]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Total Product Cost]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[Sales Amount]"
+                      cachedDataType="cy"
+                      cachedName="Sales Amount"
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Sales Amount]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Sales Amount]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1].Columns[Copy of ProductKey]"
                       cachedDataType="numeric"
                       cachedName="Copy of ProductKey"
                       cachedPrecision="18"
                       cachedSortKeyPosition="1"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[Copy of ProductKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[ProductKey]"
-                      cachedDataType="i4"
-                      cachedName="ProductKey"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[ProductKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[DueDateKey]"
-                      cachedDataType="i4"
-                      cachedName="DueDateKey"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[DueDateKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[ShipDateKey]"
-                      cachedDataType="i4"
-                      cachedName="ShipDateKey"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[ShipDateKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[OrderDateKey]"
-                      cachedDataType="i4"
-                      cachedName="OrderDateKey"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[OrderDateKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[CustomerKey]"
-                      cachedDataType="i4"
-                      cachedName="CustomerKey"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[CustomerKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[PromotionKey]"
-                      cachedDataType="i4"
-                      cachedName="PromotionKey"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[PromotionKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[CurrencyKey]"
-                      cachedDataType="i4"
-                      cachedName="CurrencyKey"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[CurrencyKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[SalesTerritoryKey]"
-                      cachedDataType="i4"
-                      cachedName="SalesTerritoryKey"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[SalesTerritoryKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[SalesOrderNumber]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="SalesOrderNumber"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[SalesOrderNumber]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[SalesOrderLineNumber]"
-                      cachedDataType="ui1"
-                      cachedName="SalesOrderLineNumber"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[SalesOrderLineNumber]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[RevisionNumber]"
-                      cachedDataType="ui1"
-                      cachedName="RevisionNumber"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[RevisionNumber]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[OrderQuantity]"
-                      cachedDataType="i2"
-                      cachedName="OrderQuantity"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[OrderQuantity]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[UnitPrice]"
-                      cachedDataType="cy"
-                      cachedName="UnitPrice"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[UnitPrice]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[ExtendedAmount]"
-                      cachedDataType="cy"
-                      cachedName="ExtendedAmount"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[ExtendedAmount]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[UnitPriceDiscountPct]"
-                      cachedDataType="r8"
-                      cachedName="UnitPriceDiscountPct"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[UnitPriceDiscountPct]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[DiscountAmount]"
-                      cachedDataType="r8"
-                      cachedName="DiscountAmount"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[DiscountAmount]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[ProductStandardCost]"
-                      cachedDataType="cy"
-                      cachedName="ProductStandardCost"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[ProductStandardCost]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[TotalProductCost]"
-                      cachedDataType="cy"
-                      cachedName="TotalProductCost"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[TotalProductCost]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[SalesAmount]"
-                      cachedDataType="cy"
-                      cachedName="SalesAmount"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[SalesAmount]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[TaxAmt]"
-                      cachedDataType="cy"
-                      cachedName="TaxAmt"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[TaxAmt]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[Freight]"
-                      cachedDataType="cy"
-                      cachedName="Freight"
-                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[Freight]" />
+                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Copy of ProductKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Copy of ProductKey]}</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
                 <input
-                  refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input]"
-                  hasSideEffects="true"
-                  name="Merge Join Left Input">
+                  refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 2]"
+                  name="Merge Input 2">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Copy of ProductKey]"
+                      refId="Package\Update sales data from excel\Merge.Inputs[Merge Input 2].Columns[Copy of ProductKey]"
                       cachedDataType="numeric"
                       cachedName="Copy of ProductKey"
                       cachedPrecision="18"
                       cachedSortKeyPosition="1"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Copy of ProductKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[ProductKey]"
-                      cachedDataType="r8"
-                      cachedName="ProductKey"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[ProductKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[SalesOrderLineKey]"
-                      cachedDataType="r8"
-                      cachedName="SalesOrderLineKey"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[SalesOrderLineKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[CustomerKey]"
-                      cachedDataType="r8"
-                      cachedName="CustomerKey"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[CustomerKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[OrderDateKey]"
-                      cachedDataType="r8"
-                      cachedName="OrderDateKey"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[OrderDateKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[DueDateKey]"
-                      cachedDataType="r8"
-                      cachedName="DueDateKey"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[DueDateKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[ShipDateKey]"
-                      cachedDataType="r8"
-                      cachedName="ShipDateKey"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[ShipDateKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[SalesTerritoryKey]"
-                      cachedDataType="r8"
-                      cachedName="SalesTerritoryKey"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[SalesTerritoryKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Order Quantity]"
-                      cachedDataType="r8"
-                      cachedName="Order Quantity"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Order Quantity]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Unit Price]"
-                      cachedDataType="cy"
-                      cachedName="Unit Price"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Unit Price]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Extended Amount]"
-                      cachedDataType="cy"
-                      cachedName="Extended Amount"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Extended Amount]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Unit Price Discount Pct]"
-                      cachedDataType="r8"
-                      cachedName="Unit Price Discount Pct"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Unit Price Discount Pct]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Product Standard Cost]"
-                      cachedDataType="cy"
-                      cachedName="Product Standard Cost"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Product Standard Cost]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Total Product Cost]"
-                      cachedDataType="cy"
-                      cachedName="Total Product Cost"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Total Product Cost]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Sales Amount]"
-                      cachedDataType="cy"
-                      cachedName="Sales Amount"
-                      lineageId="Package\Update sales data from excel\Sort.Outputs[Sort Output].Columns[Sales Amount]" />
+                      lineageId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output].Columns[Copy of ProductKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Copy of ProductKey]}</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output]"
-                  name="Merge Join Output">
+                  refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1]"
+                  isSorted="true"
+                  name="Merge Output 1">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ProductKey]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ProductKey]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ProductKey]"
-                      name="ProductKey">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[ProductKey]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ProductKey]"
+                      name="ProductKey" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ProductKey (1)]"
-                      dataType="i4"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ProductKey (1)]"
-                      name="ProductKey (1)">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[ProductKey]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesOrderLineKey]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[SalesOrderLineKey]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesOrderLineKey]"
-                      name="SalesOrderLineKey">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[SalesOrderLineKey]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[SalesOrderLineKey]"
+                      name="SalesOrderLineKey" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[CustomerKey]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ResellerKey]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[CustomerKey]"
-                      name="CustomerKey">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[CustomerKey]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ResellerKey]"
+                      name="ResellerKey" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[OrderDateKey]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[CustomerKey]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[OrderDateKey]"
-                      name="OrderDateKey">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[OrderDateKey]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[CustomerKey]"
+                      name="CustomerKey" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[DueDateKey]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[OrderDateKey]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[DueDateKey]"
-                      name="DueDateKey">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[DueDateKey]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[OrderDateKey]"
+                      name="OrderDateKey" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ShipDateKey]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[DueDateKey]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ShipDateKey]"
-                      name="ShipDateKey">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[ShipDateKey]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[DueDateKey]"
+                      name="DueDateKey" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesTerritoryKey]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ShipDateKey]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesTerritoryKey]"
-                      name="SalesTerritoryKey">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[SalesTerritoryKey]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[ShipDateKey]"
+                      name="ShipDateKey" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Order Quantity]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[SalesTerritoryKey]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Order Quantity]"
-                      name="Order Quantity">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Order Quantity]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[SalesTerritoryKey]"
+                      name="SalesTerritoryKey" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Unit Price]"
-                      dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Unit Price]"
-                      name="Unit Price">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Unit Price]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Extended Amount]"
-                      dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Extended Amount]"
-                      name="Extended Amount">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Extended Amount]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Unit Price Discount Pct]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Order Quantity]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Unit Price Discount Pct]"
-                      name="Unit Price Discount Pct">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Unit Price Discount Pct]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Order Quantity]"
+                      name="Order Quantity" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Product Standard Cost]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Unit Price]"
                       dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Product Standard Cost]"
-                      name="Product Standard Cost">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Product Standard Cost]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Unit Price]"
+                      name="Unit Price" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Total Product Cost]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Extended Amount]"
                       dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Total Product Cost]"
-                      name="Total Product Cost">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Total Product Cost]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Extended Amount]"
+                      name="Extended Amount" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Sales Amount]"
-                      dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Sales Amount]"
-                      name="Sales Amount">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input].Columns[Sales Amount]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[DueDateKey (1)]"
-                      dataType="i4"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[DueDateKey (1)]"
-                      name="DueDateKey (1)">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[DueDateKey]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ShipDateKey (1)]"
-                      dataType="i4"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ShipDateKey (1)]"
-                      name="ShipDateKey (1)">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[ShipDateKey]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[OrderDateKey (1)]"
-                      dataType="i4"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[OrderDateKey (1)]"
-                      name="OrderDateKey (1)">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[OrderDateKey]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[CustomerKey (1)]"
-                      dataType="i4"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[CustomerKey (1)]"
-                      name="CustomerKey (1)">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[CustomerKey]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[PromotionKey]"
-                      dataType="i4"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[PromotionKey]"
-                      name="PromotionKey">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[PromotionKey]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[CurrencyKey]"
-                      dataType="i4"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[CurrencyKey]"
-                      name="CurrencyKey">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[CurrencyKey]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesTerritoryKey (1)]"
-                      dataType="i4"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesTerritoryKey (1)]"
-                      name="SalesTerritoryKey (1)">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[SalesTerritoryKey]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesOrderNumber]"
-                      dataType="wstr"
-                      length="20"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesOrderNumber]"
-                      name="SalesOrderNumber">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[SalesOrderNumber]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesOrderLineNumber]"
-                      dataType="ui1"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesOrderLineNumber]"
-                      name="SalesOrderLineNumber">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[SalesOrderLineNumber]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[RevisionNumber]"
-                      dataType="ui1"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[RevisionNumber]"
-                      name="RevisionNumber">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[RevisionNumber]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[OrderQuantity]"
-                      dataType="i2"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[OrderQuantity]"
-                      name="OrderQuantity">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[OrderQuantity]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[UnitPrice]"
-                      dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[UnitPrice]"
-                      name="UnitPrice">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[UnitPrice]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ExtendedAmount]"
-                      dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ExtendedAmount]"
-                      name="ExtendedAmount">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[ExtendedAmount]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[UnitPriceDiscountPct]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Unit Price Discount Pct]"
                       dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[UnitPriceDiscountPct]"
-                      name="UnitPriceDiscountPct">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[UnitPriceDiscountPct]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Unit Price Discount Pct]"
+                      name="Unit Price Discount Pct" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[DiscountAmount]"
-                      dataType="r8"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[DiscountAmount]"
-                      name="DiscountAmount">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[DiscountAmount]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ProductStandardCost]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Product Standard Cost]"
                       dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ProductStandardCost]"
-                      name="ProductStandardCost">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[ProductStandardCost]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Product Standard Cost]"
+                      name="Product Standard Cost" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[TotalProductCost]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Total Product Cost]"
                       dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[TotalProductCost]"
-                      name="TotalProductCost">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[TotalProductCost]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Total Product Cost]"
+                      name="Total Product Cost" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesAmount]"
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Sales Amount]"
                       dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesAmount]"
-                      name="SalesAmount">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[SalesAmount]}</property>
-                      </properties>
-                    </outputColumn>
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Sales Amount]"
+                      name="Sales Amount" />
                     <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[TaxAmt]"
-                      dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[TaxAmt]"
-                      name="TaxAmt">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[TaxAmt]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Freight]"
-                      dataType="cy"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Freight]"
-                      name="Freight">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input].Columns[Freight]}</property>
-                      </properties>
-                    </outputColumn>
+                      refId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Copy of ProductKey]"
+                      dataType="numeric"
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Copy of ProductKey]"
+                      name="Copy of ProductKey"
+                      precision="18"
+                      sortKeyPosition="1" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -5717,7 +6277,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                 <input
                   refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
+                  errorRowDisposition="RedirectRow"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
@@ -5726,79 +6286,84 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       cachedDataType="r8"
                       cachedName="CustomerKey"
                       externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[CustomerKey]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[CustomerKey]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[CustomerKey]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[OrderDateKey]"
                       cachedDataType="r8"
                       cachedName="OrderDateKey"
                       externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[OrderDateKey]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[OrderDateKey]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[OrderDateKey]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[DueDateKey]"
                       cachedDataType="r8"
                       cachedName="DueDateKey"
                       externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[DueDateKey]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[DueDateKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[ShipDateKey]"
-                      cachedDataType="r8"
-                      cachedName="ShipDateKey"
-                      externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[ShipDateKey]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ShipDateKey]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[DueDateKey]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[SalesTerritoryKey]"
                       cachedDataType="r8"
                       cachedName="SalesTerritoryKey"
                       externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[SalesTerritoryKey]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[SalesTerritoryKey]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Sales Amount]"
-                      cachedDataType="cy"
-                      cachedName="Sales Amount"
-                      externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[SalesAmount]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Sales Amount]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[SalesTerritoryKey]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Unit Price]"
                       cachedDataType="cy"
                       cachedName="Unit Price"
                       externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[UnitPrice]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Unit Price]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Extended Amount]"
-                      cachedDataType="cy"
-                      cachedName="Extended Amount"
-                      externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[ExtendedAmount]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Extended Amount]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Unit Price]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Unit Price Discount Pct]"
                       cachedDataType="r8"
                       cachedName="Unit Price Discount Pct"
                       externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[UnitPriceDiscountPct]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Unit Price Discount Pct]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Unit Price Discount Pct]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Product Standard Cost]"
                       cachedDataType="cy"
                       cachedName="Product Standard Cost"
                       externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[ProductStandardCost]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Product Standard Cost]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Product Standard Cost]" />
                     <inputColumn
                       refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Total Product Cost]"
                       cachedDataType="cy"
                       cachedName="Total Product Cost"
                       externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[TotalProductCost]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Total Product Cost]" />
+                      lineageId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1].Columns[Total Product Cost]" />
                     <inputColumn
-                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Order Quantity]"
-                      cachedDataType="r8"
-                      cachedName="Order Quantity"
-                      externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[OrderQuantity]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[Order Quantity]" />
-                    <inputColumn
-                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[ProductKey (1)]"
-                      cachedDataType="i4"
-                      cachedName="ProductKey (1)"
+                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Copy of ProductKey (1)]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of ProductKey (1)"
+                      cachedPrecision="18"
                       externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[ProductKey]"
-                      lineageId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output].Columns[ProductKey (1)]" />
+                      lineageId="Package\Update sales data from excel\Data Conversion 2.Outputs[Data Conversion Output].Columns[Copy of ProductKey (1)]" />
+                    <inputColumn
+                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Copy of ShipDateKey]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of ShipDateKey"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[ShipDateKey]"
+                      lineageId="Package\Update sales data from excel\Data Conversion 2.Outputs[Data Conversion Output].Columns[Copy of ShipDateKey]" />
+                    <inputColumn
+                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Copy of Sales Amount]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of Sales Amount"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[SalesAmount]"
+                      lineageId="Package\Update sales data from excel\Data Conversion 2.Outputs[Data Conversion Output].Columns[Copy of Sales Amount]" />
+                    <inputColumn
+                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Copy of Extended Amount]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of Extended Amount"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[ExtendedAmount]"
+                      lineageId="Package\Update sales data from excel\Data Conversion 2.Outputs[Data Conversion Output].Columns[Copy of Extended Amount]" />
+                    <inputColumn
+                      refId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Copy of Order Quantity]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of Order Quantity"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[OrderQuantity]"
+                      lineageId="Package\Update sales data from excel\Data Conversion 2.Outputs[Data Conversion Output].Columns[Copy of Order Quantity]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -7841,19 +8406,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           <paths>
             <path
               refId="Package\Update sales data from excel.Paths[Data Conversion Output]"
-              endId="Package\Update sales data from excel\Sort 1.Inputs[Sort Input]"
-              name="Data Conversion Output"
-              startId="Package\Update sales data from excel\Data Conversion 1.Outputs[Data Conversion Output]" />
-            <path
-              refId="Package\Update sales data from excel.Paths[Data Conversion Output1]"
               endId="Package\Update sales data from excel\Conditional Split.Inputs[Conditional Split Input]"
               name="Data Conversion Output"
               startId="Package\Update sales data from excel\Data Conversion.Outputs[Data Conversion Output]" />
             <path
-              refId="Package\Update sales data from excel.Paths[Data Conversion Output2]"
+              refId="Package\Update sales data from excel.Paths[Data Conversion Output1]"
               endId="Package\Update sales data from excel\OLE DB Destination 1.Inputs[OLE DB Destination Input]"
               name="Data Conversion Output"
               startId="Package\Update sales data from excel\Data Conversion 2.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Update sales data from excel.Paths[Data Conversion Output2]"
+              endId="Package\Update sales data from excel\Sort 1.Inputs[Sort Input]"
+              name="Data Conversion Output"
+              startId="Package\Update sales data from excel\Data Conversion 1.Outputs[Data Conversion Output]" />
             <path
               refId="Package\Update sales data from excel.Paths[Derived Column Output]"
               endId="Package\Update sales data from excel\Data Conversion 2.Inputs[Data Conversion Input]"
@@ -7870,15 +8435,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               name="Excel Source Output"
               startId="Package\Update sales data from excel\Excel Source.Outputs[Excel Source Output]" />
             <path
-              refId="Package\Update sales data from excel.Paths[Merge Join Output]"
+              refId="Package\Update sales data from excel.Paths[Merge Output 1]"
               endId="Package\Update sales data from excel\Derived Column.Inputs[Derived Column Input]"
-              name="Merge Join Output"
-              startId="Package\Update sales data from excel\Merge Join.Outputs[Merge Join Output]" />
+              name="Merge Output 1"
+              startId="Package\Update sales data from excel\Merge.Outputs[Merge Output 1]" />
             <path
               refId="Package\Update sales data from excel.Paths[Non Null product Keys]"
               endId="Package\Update sales data from excel\Sort.Inputs[Sort Input]"
               name="Non Null product Keys"
               startId="Package\Update sales data from excel\Conditional Split.Outputs[Non Null product Keys]" />
+            <path
+              refId="Package\Update sales data from excel.Paths[OLE DB Destination Error Output]"
+              endId="Package\Update sales data from excel\Log file parsing.Inputs[Input 0]"
+              name="OLE DB Destination Error Output"
+              startId="Package\Update sales data from excel\OLE DB Destination 1.Outputs[OLE DB Destination Error Output]" />
             <path
               refId="Package\Update sales data from excel.Paths[OLE DB Source Output]"
               endId="Package\Update sales data from excel\Data Conversion 1.Inputs[Data Conversion Input]"
@@ -7886,12 +8456,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               startId="Package\Update sales data from excel\OLE DB Source.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Update sales data from excel.Paths[Sort Output]"
-              endId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Left Input]"
+              endId="Package\Update sales data from excel\Merge.Inputs[Merge Input 1]"
               name="Sort Output"
               startId="Package\Update sales data from excel\Sort.Outputs[Sort Output]" />
             <path
               refId="Package\Update sales data from excel.Paths[Sort Output1]"
-              endId="Package\Update sales data from excel\Merge Join.Inputs[Merge Join Right Input]"
+              endId="Package\Update sales data from excel\Merge.Inputs[Merge Input 2]"
               name="Sort Output"
               startId="Package\Update sales data from excel\Sort 1.Outputs[Sort Output]" />
           </paths>
@@ -7912,10 +8482,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="212.8,41.6"
-          Id="Package\Update sales data from excel"
-          TopLeft="630.833298866121,77.1333327969578" />
-        <NodeLayout
           Size="166.4,41.6"
           Id="Package\Extract flat file data"
           TopLeft="83.333328780201,81.4666661001577" />
@@ -7930,396 +8496,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Size="204.8,98.4"
           Id="Package\Sequence Container"
           TopLeft="223.333321130939,254.799998228153" />
+        <NodeLayout
+          Size="212.8,41.6"
+          Id="Package\Update sales data from excel"
+          TopLeft="629.999965578319,78.8666661182377" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
-  <TaskHost
-    design-time-name="Package\Update sales data from excel">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="164,41.6"
-          Id="Package\Update sales data from excel\Data Conversion 1"
-          TopLeft="491.666639803185,149.933332290716" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Update sales data from excel\Sort 1"
-          TopLeft="517.208323035183,306.983329108474" />
-        <NodeLayout
-          Size="140.8,41.6"
-          Id="Package\Update sales data from excel\Excel Source"
-          TopLeft="113.208331141414,41.2000001148383" />
-        <NodeLayout
-          Size="180,41.6"
-          Id="Package\Update sales data from excel\OLE DB Destination 1"
-          TopLeft="1041.36568384303,342.975923806707" />
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Update sales data from excel\Sort"
-          TopLeft="111.458327243519,424.666663713588" />
-        <NodeLayout
-          Size="178.4,41.6"
-          Id="Package\Update sales data from excel\Log xml excel parsing"
-          TopLeft="284.583321062642,111.566666308079" />
-        <NodeLayout
-          Size="156,41.6"
-          Id="Package\Update sales data from excel\Data Conversion"
-          TopLeft="78.5416623753393,147.766665639116" />
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\Update sales data from excel\OLE DB Source"
-          TopLeft="495.541663512794,44.4166657379105" />
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[OLE DB Source Output]"
-          TopLeft="572.60415165799,86.0166657379105">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,63.9166665528055"
-              Start="0,0"
-              End="0,56.4166665528055">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,56.4166665528055" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Excel Source Output]"
-          TopLeft="159.00833009171,82.8000001148383">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,64.9666655242777"
-              Start="0,0"
-              End="0,57.4666655242777">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,57.4666655242777" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Excel Source Error Output]"
-          TopLeft="205.741664474747,82.8000001148383">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="168.041656587895,28.7666661932405"
-              Start="0,0"
-              End="168.041656587895,21.2666661932405">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,7.70059905837423" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,7.70059905837423"
-                    Point2="0,11.7005990583742"
-                    Point3="4,11.7005990583742" />
-                  <mssgle:LineSegment
-                    End="164.041656587895,11.7005990583742" />
-                  <mssgle:CubicBezierSegment
-                    Point1="164.041656587895,11.7005990583742"
-                    Point2="168.041656587895,11.7005990583742"
-                    Point3="168.041656587895,15.7005990583742" />
-                  <mssgle:LineSegment
-                    End="168.041656587895,21.2666661932405" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="26.1694415751973,16.7005990583742,115.7027734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Data Conversion Output]"
-          TopLeft="572.037481419184,191.533332290716">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,115.449996817758"
-              Start="0,0"
-              End="0,107.949996817758">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,107.949996817758" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\Update sales data from excel\Merge Join"
-          TopLeft="320.208315837922,430.083330342588" />
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Sort Output]"
-          TopLeft="209.058327243519,448.174997028088">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="111.149988594404,0"
-              Start="0,0"
-              End="103.649988594404,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="103.649988594404,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Sort Output1]"
-          TopLeft="570.408323035183,348.583329108474">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-185.40000719726,81.5000012341138"
-              Start="0,0"
-              End="-185.40000719726,74.0000012341138">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.7500006170569" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.7500006170569"
-                    Point2="0,40.7500006170569"
-                    Point3="-4,40.7500006170569" />
-                  <mssgle:LineSegment
-                    End="-181.40000719726,40.7500006170569" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-181.40000719726,40.7500006170569"
-                    Point2="-185.40000719726,40.7500006170569"
-                    Point3="-185.40000719726,44.7500006170569" />
-                  <mssgle:LineSegment
-                    End="-185.40000719726,74.0000012341138" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="153.6,41.6"
-          Id="Package\Update sales data from excel\Conditional Split"
-          TopLeft="82.2916621704484,255.666664888793" />
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Non Null product Keys]"
-          TopLeft="159.674994706983,297.266664888793">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,127.399998824795"
-              Start="0,0"
-              End="0,119.899998824795">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,119.899998824795" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Data Conversion Output1]"
-          TopLeft="157.816662272894,189.366665639116">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,66.2999992496766"
-              Start="0,0"
-              End="0,58.7999992496766">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,58.7999992496766" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="164,41.6"
-          Id="Package\Update sales data from excel\Data Conversion 2"
-          TopLeft="992.708279094144,441.999996926387" />
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Data Conversion Output2]"
-          TopLeft="1074.70827909414,441.999996926387">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="56.6574047488825,-57.4240731196804"
-              Start="0,0"
-              End="56.6574047488825,-49.9240731196804">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-24.7120365598402" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-24.7120365598402"
-                    Point2="0,-28.7120365598402"
-                    Point3="4,-28.7120365598402" />
-                  <mssgle:LineSegment
-                    End="52.6574047488825,-28.7120365598402" />
-                  <mssgle:CubicBezierSegment
-                    Point1="52.6574047488825,-28.7120365598402"
-                    Point2="56.6574047488825,-28.7120365598402"
-                    Point3="56.6574047488825,-32.7120365598402" />
-                  <mssgle:LineSegment
-                    End="56.6574047488825,-49.9240731196804" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Update sales data from excel\Derived Column"
-          TopLeft="635.416631949032,446.333330229587" />
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Merge Join Output]"
-          TopLeft="449.808315837922,450.883330342588">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="185.60831611111,16.2499998869994"
-              Start="0,0"
-              End="178.10831611111,16.2499998869994">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="88.8041580555551,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="88.8041580555551,0"
-                    Point2="92.8041580555551,0"
-                    Point3="92.8041580555551,4" />
-                  <mssgle:LineSegment
-                    End="92.8041580555551,12.2499998869994" />
-                  <mssgle:CubicBezierSegment
-                    Point1="92.8041580555551,12.2499998869994"
-                    Point2="92.8041580555551,16.2499998869994"
-                    Point3="96.8041580555551,16.2499998869994" />
-                  <mssgle:LineSegment
-                    End="178.10831611111,16.2499998869994" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update sales data from excel.Paths[Derived Column Output]"
-          TopLeft="788.216631949032,464.966663577987">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="204.491647145112,0"
-              Start="0,0"
-              End="196.991647145112,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="196.991647145112,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Update sales data from excel\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Update sales data from excel\OLE DB Destination 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Update sales data from excel\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Extract flat file data">
     <LayoutInfo>
@@ -8328,7 +8511,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <NodeLayout
           Size="148.8,41.6"
           Id="Package\Extract flat file data\Log file parsing"
-          TopLeft="323.33331566718,201.933331929114" />
+          TopLeft="324.333315652279,202.933331914213" />
         <NodeLayout
           Size="151.2,41.6"
           Id="Package\Extract flat file data\Flat File Source"
@@ -8340,7 +8523,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <NodeLayout
           Size="180,41.6"
           Id="Package\Extract flat file data\OLE DB Destination 1"
-          TopLeft="94.2424188945632,395.696966643346" />
+          TopLeft="91.2424189392667,403.696966524137" />
         <EdgeLayout
           Id="Package\Extract flat file data.Paths[Flat File Source Output]"
           TopLeft="182.399998509884,172.599998047948">
@@ -8360,9 +8543,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8371,57 +8552,57 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="193.266650565135,29.333333881166"
+              EndConnector="194.266650550234,30.3333338662648"
               Start="0,0"
-              End="193.266650565135,21.833333881166">
+              End="194.266650550234,22.8333338662648">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,7.91762674962557" />
+                    End="0,8.32390946608456" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,7.91762674962557"
-                    Point2="0,11.9176267496256"
-                    Point3="4,11.9176267496256" />
+                    Point1="0,8.32390946608456"
+                    Point2="0,12.3239094660846"
+                    Point3="4,12.3239094660846" />
                   <mssgle:LineSegment
-                    End="189.266650565135,11.9176267496256" />
+                    End="190.266650550234,12.3239094660846" />
                   <mssgle:CubicBezierSegment
-                    Point1="189.266650565135,11.9176267496256"
-                    Point2="193.266650565135,11.9176267496256"
-                    Point3="193.266650565135,15.9176267496256" />
+                    Point1="190.266650550234,12.3239094660846"
+                    Point2="194.266650550234,12.3239094660846"
+                    Point3="194.266650550234,16.3239094660846" />
                   <mssgle:LineSegment
-                    End="193.266650565135,21.833333881166" />
+                    End="194.266650550234,22.8333338662648" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="33.0069385638175,16.9176267496256,127.2527734375,11.609375"
+              BoundingBox="33.5069385563671,17.3239094660846,127.2527734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract flat file data.Paths[Lookup Match Output]"
-          TopLeft="184.221208739476,292.599996259809">
+          TopLeft="182.721208761828,292.599996259809">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,103.096970383537"
+              EndConnector="0,111.096970264328"
               Start="0,0"
-              End="0,95.5969703835369">
+              End="0,103.596970264328">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,95.5969703835369" />
+                    End="0,103.596970264328" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,41.9937976917684,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,45.9937976321638,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -8434,7 +8615,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -8444,7 +8625,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8552,7 +8733,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8574,11 +8757,423 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
+    design-time-name="Package\Update sales data from excel">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="180,41.6"
+          Id="Package\Update sales data from excel\OLE DB Destination 1"
+          TopLeft="887.199025599658,544.042589075181" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Update sales data from excel\Sort"
+          TopLeft="111.458327243519,424.666663713588" />
+        <NodeLayout
+          Size="178.4,41.6"
+          Id="Package\Update sales data from excel\Log xml excel parsing"
+          TopLeft="284.583321062642,111.566666308079" />
+        <NodeLayout
+          Size="164,41.6"
+          Id="Package\Update sales data from excel\Data Conversion 1"
+          TopLeft="491.666639803185,149.933332290716" />
+        <NodeLayout
+          Size="140.8,41.6"
+          Id="Package\Update sales data from excel\Excel Source"
+          TopLeft="113.208331141414,41.2000001148383" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Update sales data from excel\OLE DB Source"
+          TopLeft="495.541663512794,44.4166657379105" />
+        <NodeLayout
+          Size="156,41.6"
+          Id="Package\Update sales data from excel\Data Conversion"
+          TopLeft="78.5416623753393,147.766665639116" />
+        <NodeLayout
+          Size="164,41.6"
+          Id="Package\Update sales data from excel\Data Conversion 2"
+          TopLeft="570.208302178525,537.333329596784" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Update sales data from excel\Sort 1"
+          TopLeft="517.208323035183,306.983329108474" />
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\Update sales data from excel\Log file parsing"
+          TopLeft="1085.83327400602,583.333330211507" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Update sales data from excel\Derived Column"
+          TopLeft="311.24998299405,535.599996275504" />
+        <NodeLayout
+          Size="153.6,41.6"
+          Id="Package\Update sales data from excel\Conditional Split"
+          TopLeft="82.2916621704484,255.666664888793" />
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Data Conversion Output]"
+          TopLeft="157.816662272894,189.366665639116">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,66.2999992496766"
+              Start="0,0"
+              End="0,58.7999992496766">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,58.7999992496766" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[OLE DB Source Output]"
+          TopLeft="572.60415165799,86.0166657379105">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,63.9166665528055"
+              Start="0,0"
+              End="0,56.4166665528055">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,56.4166665528055" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[OLE DB Destination Error Output]"
+          TopLeft="1067.19902559966,560.833330211507">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="93.0342484063599,22.5"
+              Start="0,0"
+              End="93.0342484063599,15">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="89.0342484063599,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="89.0342484063599,0"
+                    Point2="93.0342484063599,0"
+                    Point3="93.0342484063599,4" />
+                  <mssgle:LineSegment
+                    End="93.0342484063599,15" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="19.8253421563599,-17.43359375,146.4178125,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Non Null product Keys]"
+          TopLeft="159.674994706983,297.266664888793">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,127.399998824795"
+              Start="0,0"
+              End="0,119.899998824795">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,119.899998824795" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-49.587578125,54.1453119123975,99.17515625,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Excel Source Output]"
+          TopLeft="159.00833009171,82.8000001148383">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,64.9666655242777"
+              Start="0,0"
+              End="0,57.4666655242777">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.4666655242777" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Excel Source Error Output]"
+          TopLeft="205.741664474747,82.8000001148383">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="168.041656587895,28.7666661932405"
+              Start="0,0"
+              End="168.041656587895,21.2666661932405">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.70059905837423" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.70059905837423"
+                    Point2="0,11.7005990583742"
+                    Point3="4,11.7005990583742" />
+                  <mssgle:LineSegment
+                    End="164.041656587895,11.7005990583742" />
+                  <mssgle:CubicBezierSegment
+                    Point1="164.041656587895,11.7005990583742"
+                    Point2="168.041656587895,11.7005990583742"
+                    Point3="168.041656587895,15.7005990583742" />
+                  <mssgle:LineSegment
+                    End="168.041656587895,21.2666661932405" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="26.1694415751973,16.7005990583742,115.7027734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Derived Column Output]"
+          TopLeft="464.04998299405,557.266662936144">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="106.158319184475,0"
+              Start="0,0"
+              End="98.6583191844748,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="98.6583191844748,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Data Conversion Output2]"
+          TopLeft="572.037481419184,191.533332290716">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,115.449996817758"
+              Start="0,0"
+              End="0,107.949996817758">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,107.949996817758" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Data Conversion Output1]"
+          TopLeft="734.208302178525,561.487959335983">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="152.990723421133,0"
+              Start="0,0"
+              End="145.490723421133,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="145.490723421133,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="108,41.6"
+          Id="Package\Update sales data from excel\Merge"
+          TopLeft="312.499982925754,453.13333077199" />
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Sort Output]"
+          TopLeft="209.058327243519,445.466663713588">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="103.441655682235,28.4666670584015"
+              Start="0,0"
+              End="95.9416556822346,28.4666670584015">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="47.7208278411173,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="47.7208278411173,0"
+                    Point2="51.7208278411173,0"
+                    Point3="51.7208278411173,4" />
+                  <mssgle:LineSegment
+                    End="51.7208278411173,24.4666670584015" />
+                  <mssgle:CubicBezierSegment
+                    Point1="51.7208278411173,24.4666670584015"
+                    Point2="51.7208278411173,28.4666670584015"
+                    Point3="55.7208278411173,28.4666670584015" />
+                  <mssgle:LineSegment
+                    End="95.9416556822346,28.4666670584015" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Sort Output1]"
+          TopLeft="570.408323035183,348.583329108474">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-203.908340109429,104.550001663516"
+              Start="0,0"
+              End="-203.908340109429,97.0500016635155">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.2750008317578" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,48.2750008317578"
+                    Point2="0,52.2750008317578"
+                    Point3="-4,52.2750008317578" />
+                  <mssgle:LineSegment
+                    End="-199.908340109429,52.2750008317578" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-199.908340109429,52.2750008317578"
+                    Point2="-203.908340109429,52.2750008317578"
+                    Point3="-203.908340109429,56.2750008317578" />
+                  <mssgle:LineSegment
+                    End="-203.908340109429,97.0500016635155" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update sales data from excel.Paths[Merge Output 1]"
+          TopLeft="366.499982925754,494.73333077199">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="21.1500000682964,40.8666655035145"
+              Start="0,0"
+              End="21.1500000682964,33.3666655035145">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.4333327517573" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.4333327517573"
+                    Point2="0,20.4333327517573"
+                    Point3="4,20.4333327517573" />
+                  <mssgle:LineSegment
+                    End="17.1500000682964,20.4333327517573" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.1500000682964,20.4333327517573"
+                    Point2="21.1500000682964,20.4333327517573"
+                    Point3="21.1500000682964,24.4333327517573" />
+                  <mssgle:LineSegment
+                    End="21.1500000682964,33.3666655035145" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Update sales data from excel\OLE DB Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Update sales data from excel\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
