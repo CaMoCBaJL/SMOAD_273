@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.SMOAD"
+  DTS:DTSID="{C54996EB-42F6-4A79-9932-F1C853243153}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=SMOAD;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-SMOAD-{C54996EB-42F6-4A79-9932-F1C853243153}localhost.SMOAD;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
