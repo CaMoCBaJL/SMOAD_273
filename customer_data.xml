@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<Customers>    
+	<Customer>
+		<CustomerKey></CustomerKey>       
+		<CustomerId></CustomerId>
+        <Customer></Customer>              
+		<City></City>       
+		<State-Province></State-Province>       
+		<Country-Region></Country-Region>
+		<PostalCode></PostalCode>     
+	</Customer>
+	<Customer>
+		<CustomerKey></CustomerKey>       
+		<CustomerId></CustomerId>
+        <Customer></Customer>       
+		<City></City>       
+		<State-Province></State-Province>       
+		<Country-Region></Country-Region>
+		<PostalCode></PostalCode>     
+	</Customer>
+</Customers>
