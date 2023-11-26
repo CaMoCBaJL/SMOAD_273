@@ -11,104 +11,10 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="187"
-  DTS:VersionGUID="{23BACF16-8444-4868-ABA4-A7A272CFBF79}">
+  DTS:VersionBuild="226"
+  DTS:VersionGUID="{BBB65F9E-4E0F-4385-A5E1-BDAE08D03001}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
-  <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 2]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{2BBF1F65-B3FC-4192-8E88-249372676052}"
-      DTS:ObjectName="Excel Connection Manager 2">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\anton\Projects\SMOAD\SMOAD\AdventureWorks Sales.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{8E4F7B82-A8FB-4A7E-A1EC-B111242A8CD5}"
-      DTS:ObjectName="Flat File Connection Manager 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\anton\Projects\SMOAD\SMOAD\test.txt">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="4"
-              DTS:TextQualified="True"
-              DTS:ObjectName="AverageRate"
-              DTS:DTSID="{92C6F77F-0341-4F67-92DC-DD9CC33A9825}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="3"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CurrnecyId"
-              DTS:DTSID="{E5791D7C-6BF7-459D-B586-73D95187E09F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="133"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{EFD73EB2-8A4F-430F-A4B9-5E7C20ABBB1C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="4"
-              DTS:TextQualified="True"
-              DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{640969F2-1CF4-42D8-9888-2F016150799E}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="DateKey"
-              DTS:DTSID="{DF8E3CF5-C5CB-4DEB-B348-519647649D8D}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-  </DTS:ConnectionManagers>
-  <DTS:LogProviders>
-    <DTS:LogProvider
-      DTS:CreationName="Microsoft.LogProviderSQLServer"
-      DTS:Description="Writes log entries for events to a SQL Server database"
-      DTS:DTSID="{E88DB37B-4790-409E-8923-3EFB99059FBF}"
-      DTS:ObjectName="SSIS log provider for SQL Server">
-      <DTS:ObjectData>
-        <InnerObject />
-      </DTS:ObjectData>
-    </DTS:LogProvider>
-    <DTS:LogProvider
-      DTS:CreationName="Microsoft.LogProviderSQLProfiler"
-      DTS:Description="Generates SQL traces that may be captured in SQL Server Profiler"
-      DTS:DTSID="{204C3F67-75BB-4188-BB24-3B8FD47F0F49}"
-      DTS:ObjectName="SSIS log provider for SQL Server Profiler">
-      <DTS:ObjectData>
-        <InnerObject />
-      </DTS:ObjectData>
-    </DTS:LogProvider>
-  </DTS:LogProviders>
   <DTS:Variables />
   <DTS:LoggingOptions
     DTS:FilterKind="0"
@@ -170,12 +76,6 @@
       <DTS:Property
         DTS:Name="DataBytes">-1</DTS:Property>
     </DTS:Property>
-    <DTS:SelectedLogProviders>
-      <DTS:SelectedLogProvider
-        DTS:InstanceID="{E88DB37B-4790-409E-8923-3EFB99059FBF}" />
-      <DTS:SelectedLogProvider
-        DTS:InstanceID="{204C3F67-75BB-4188-BB24-3B8FD47F0F49}" />
-    </DTS:SelectedLogProviders>
   </DTS:LoggingOptions>
   <DTS:Executables>
     <DTS:Executable
@@ -383,6 +283,54 @@
                   exclusionGroup="1"
                   name="Derived Column Output"
                   synchronousInputId="Package\Add sale facts\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Add sale facts\Derived Column.Outputs[Derived Column Output].Columns[CurrencyKey]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="3"
+                      lineageId="Package\Add sale facts\Derived Column.Outputs[Derived Column Output].Columns[CurrencyKey]"
+                      name="CurrencyKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_WSTR,3)"RU"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_WSTR,3)"RU"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Add sale facts\Derived Column.Outputs[Derived Column Output].Columns[TaxAmount]"
+                      dataType="decimal"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Add sale facts\Derived Column.Outputs[Derived Column Output].Columns[TaxAmount]"
+                      name="TaxAmount"
+                      scale="18"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_DECIMAL,18)0.13</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_DECIMAL,18)0.13</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
                 <output
@@ -1836,6 +1784,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       cachedPrecision="18"
                       externalMetadataColumnId="Package\Add sale facts\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ServiceId]"
                       lineageId="Package\Add sale facts\Data Conversion.Outputs[Data Conversion Output].Columns[NumericProductKey]" />
+                    <inputColumn
+                      refId="Package\Add sale facts\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CurrencyKey]"
+                      cachedDataType="wstr"
+                      cachedLength="3"
+                      cachedName="CurrencyKey"
+                      externalMetadataColumnId="Package\Add sale facts\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyCode]"
+                      lineageId="Package\Add sale facts\Derived Column.Outputs[Derived Column Output].Columns[CurrencyKey]" />
+                    <inputColumn
+                      refId="Package\Add sale facts\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TaxAmount]"
+                      cachedDataType="decimal"
+                      cachedName="TaxAmount"
+                      cachedScale="18"
+                      externalMetadataColumnId="Package\Add sale facts\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TaxAmount]"
+                      lineageId="Package\Add sale facts\Derived Column.Outputs[Derived Column Output].Columns[TaxAmount]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1932,6 +1894,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               name="Data Conversion Output"
               startId="Package\Add sale facts\Data Conversion.Outputs[Data Conversion Output]" />
             <path
+              refId="Package\Add sale facts.Paths[Derived Column Output]"
+              endId="Package\Add sale facts\Conditional Split.Inputs[Conditional Split Input]"
+              name="Derived Column Output"
+              startId="Package\Add sale facts\Derived Column.Outputs[Derived Column Output]" />
+            <path
               refId="Package\Add sale facts.Paths[Excel Source Error Output]"
               endId="Package\Add sale facts\Log xml excel parsing.Inputs[Input 0]"
               name="Excel Source Error Output"
@@ -1959,8 +1926,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       DTS:LocaleID="-1"
       DTS:ObjectName="Clear currency rates"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{C54996EB-42F6-4A79-9932-F1C853243153}"
@@ -1978,6 +1947,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{C54996EB-42F6-4A79-9932-F1C853243153}"
@@ -2018,12 +1989,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       cachedName="CustomerKey"
                       lineageId="Package\SCD for DimCustomer\Merge Join.Outputs[Merge Join Output].Columns[CustomerKey]" />
                     <inputColumn
-                      refId="Package\SCD for DimCustomer\Data Conversion.Inputs[Data Conversion Input].Columns[CustomerId]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="CustomerId"
-                      lineageId="Package\SCD for DimCustomer\Merge Join.Outputs[Merge Join Output].Columns[CustomerId]" />
-                    <inputColumn
                       refId="Package\SCD for DimCustomer\Data Conversion.Inputs[Data Conversion Input].Columns[Customer]"
                       cachedDataType="wstr"
                       cachedLength="255"
@@ -2061,28 +2026,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerId]"
-                      dataType="i8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerId]"
-                      name="Copy of CustomerId"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\SCD for DimCustomer\Merge Join.Outputs[Merge Join Output].Columns[CustomerId]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[FullName]"
-                      codePage="1252"
+                      codePage="1251"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
@@ -2122,84 +2067,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       refId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\SCD for DimCustomer\Data Conversion 1"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="Data Conversion 1"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\SCD for DimCustomer\Data Conversion 1.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\SCD for DimCustomer\Data Conversion 1.Inputs[Data Conversion Input].Columns[Customer]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="Customer"
-                      lineageId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[Customer]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\SCD for DimCustomer\Data Conversion 1.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Output].Columns[CustomerName]"
-                      codePage="1251"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="255"
-                      lineageId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Output].Columns[CustomerName]"
-                      name="CustomerName"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[Customer]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\SCD for DimCustomer\Data Conversion 1.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2293,6 +2160,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   refId="Package\SCD for DimCustomer\Derived Column 1.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\SCD for DimCustomer\Derived Column 1.Inputs[Derived Column Input].Columns[GeographyKey]"
+                      cachedDataType="i8"
+                      cachedName="GeographyKey"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[GeographyKey]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[REPLACENULL](#{Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[GeographyKey]},1)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">REPLACENULL(GeographyKey,1)</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
@@ -2307,7 +2199,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     <outputColumn
                       refId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[IsValid]"
                       dataType="bool"
-                      description="IsValid"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
                       lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[IsValid]"
@@ -2325,6 +2216,96 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
                           name="FriendlyExpression">(DT_BOOL)("1")</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[PhoneNumber]"
+                      codePage="1251"
+                      dataType="str"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="10"
+                      lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[PhoneNumber]"
+                      name="PhoneNumber"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_STR,10,1251)"7777777777"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_STR,10,1251)"7777777777"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[RegistrationDateKey]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[RegistrationDateKey]"
+                      name="RegistrationDateKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_I8)20230101</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I8)20230101</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[LastActivityDatekey]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[LastActivityDatekey]"
+                      name="LastActivityDatekey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_I8)20240101</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I8)20240101</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[DemographyKey]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[DemographyKey]"
+                      name="DemographyKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_I8)1</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I8)1</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -2428,11 +2409,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].Columns[GeographyKey]"
-                      cachedDataType="i8"
-                      cachedName="GeographyKey"
-                      externalMetadataColumnId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[GeographyId]"
-                      lineageId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[GeographyKey]" />
+                      refId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].Columns[FullName]"
+                      cachedCodepage="1251"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="FullName"
+                      externalMetadataColumnId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[FullName]"
+                      lineageId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[FullName]" />
                     <inputColumn
                       refId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].Columns[IsValid]"
                       cachedDataType="bool"
@@ -2440,13 +2423,37 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       externalMetadataColumnId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[IsValid]"
                       lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[IsValid]" />
                     <inputColumn
-                      refId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].Columns[CustomerName]"
+                      refId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].Columns[GeographyKey]"
+                      cachedDataType="i8"
+                      cachedName="GeographyKey"
+                      externalMetadataColumnId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[GeographyId]"
+                      lineageId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[GeographyKey]" />
+                    <inputColumn
+                      refId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].Columns[PhoneNumber]"
                       cachedCodepage="1251"
                       cachedDataType="str"
-                      cachedLength="255"
-                      cachedName="CustomerName"
-                      externalMetadataColumnId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[FullName]"
-                      lineageId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Output].Columns[CustomerName]" />
+                      cachedLength="10"
+                      cachedName="PhoneNumber"
+                      externalMetadataColumnId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[PhoneNumber]"
+                      lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[PhoneNumber]" />
+                    <inputColumn
+                      refId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].Columns[RegistrationDateKey]"
+                      cachedDataType="i8"
+                      cachedName="RegistrationDateKey"
+                      externalMetadataColumnId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[RegistrationDateId]"
+                      lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[RegistrationDateKey]" />
+                    <inputColumn
+                      refId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].Columns[LastActivityDatekey]"
+                      cachedDataType="i8"
+                      cachedName="LastActivityDatekey"
+                      externalMetadataColumnId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[lastActivityDateId]"
+                      lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[LastActivityDatekey]" />
+                    <inputColumn
+                      refId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].Columns[DemographyKey]"
+                      cachedDataType="i8"
+                      cachedName="DemographyKey"
+                      externalMetadataColumnId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[DemographyId]"
+                      lineageId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output].Columns[DemographyKey]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3739,11 +3746,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   name="OLE DB Command Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\SCD for DimCustomer\OLE DB Command.Inputs[OLE DB Command Input].Columns[Copy of CustomerId]"
+                      refId="Package\SCD for DimCustomer\OLE DB Command.Inputs[OLE DB Command Input].Columns[Copy of CustomerKey]"
                       cachedDataType="i8"
-                      cachedName="Copy of CustomerId"
+                      cachedName="Copy of CustomerKey"
                       externalMetadataColumnId="Package\SCD for DimCustomer\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerId]" />
+                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerKey]" />
                     <inputColumn
                       refId="Package\SCD for DimCustomer\OLE DB Command.Inputs[OLE DB Command Input].Columns[IsValid]"
                       cachedDataType="bool"
@@ -4067,12 +4074,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   name="Slowly Changing Dimension Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\SCD for DimCustomer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Customer]"
-                      cachedDataType="wstr"
+                      refId="Package\SCD for DimCustomer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[FullName]"
+                      cachedCodepage="1251"
+                      cachedDataType="str"
                       cachedLength="255"
-                      cachedName="Customer"
+                      cachedName="FullName"
                       externalMetadataColumnId="Package\SCD for DimCustomer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[FullName]"
-                      lineageId="Package\SCD for DimCustomer\Merge Join.Outputs[Merge Join Output].Columns[Customer]">
+                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[FullName]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4081,11 +4089,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\SCD for DimCustomer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Copy of CustomerId]"
+                      refId="Package\SCD for DimCustomer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Copy of CustomerKey]"
                       cachedDataType="i8"
-                      cachedName="Copy of CustomerId"
+                      cachedName="Copy of CustomerKey"
                       externalMetadataColumnId="Package\SCD for DimCustomer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[id]"
-                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerId]">
+                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerKey]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4751,16 +4759,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\SCD for DimCustomer\Union All.Inputs[Union All Input 1].Columns[Copy of CustomerId]"
-                      cachedDataType="i8"
-                      cachedName="Copy of CustomerId"
-                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerId]">
+                      refId="Package\SCD for DimCustomer\Union All.Inputs[Union All Input 1].Columns[FullName]"
+                      cachedCodepage="1251"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="FullName"
+                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[FullName]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[Copy of CustomerId]}</property>
+                          name="OutputColumnLineageID">#{Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[FullName]}</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
@@ -4896,16 +4906,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\SCD for DimCustomer\Union All.Inputs[Union All Input 2].Columns[Copy of CustomerId]"
-                      cachedDataType="i8"
-                      cachedName="Copy of CustomerId"
-                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerId]">
+                      refId="Package\SCD for DimCustomer\Union All.Inputs[Union All Input 2].Columns[FullName]"
+                      cachedCodepage="1251"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="FullName"
+                      lineageId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output].Columns[FullName]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[Copy of CustomerId]}</property>
+                          name="OutputColumnLineageID">#{Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[FullName]}</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
@@ -4976,10 +4988,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       lineageId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[Copy of CustomerKey]"
                       name="Copy of CustomerKey" />
                     <outputColumn
-                      refId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[Copy of CustomerId]"
-                      dataType="i8"
-                      lineageId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[Copy of CustomerId]"
-                      name="Copy of CustomerId" />
+                      refId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[FullName]"
+                      codePage="1251"
+                      dataType="str"
+                      length="255"
+                      lineageId="Package\SCD for DimCustomer\Union All.Outputs[Union All Output 1].Columns[FullName]"
+                      name="FullName" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -5040,11 +5054,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       refId="Package\SCD for DimCustomer\XML Source.Outputs[Customer].Columns[CustomerKey]"
                       dataType="ui2"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="RedirectRow"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\SCD for DimCustomer\XML Source.Outputs[Customer].ExternalColumns[CustomerKey]"
                       lineageId="Package\SCD for DimCustomer\XML Source.Outputs[Customer].Columns[CustomerKey]"
                       name="CustomerKey"
-                      truncationRowDisposition="RedirectRow" />
+                      truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\SCD for DimCustomer\XML Source.Outputs[Customer].Columns[CustomerId]"
                       dataType="wstr"
@@ -5304,18 +5318,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               name="Data Conversion Output"
               startId="Package\SCD for DimCustomer\Data Conversion.Outputs[Data Conversion Output]" />
             <path
-              refId="Package\SCD for DimCustomer.Paths[Data Conversion Output1]"
-              endId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input]"
-              name="Data Conversion Output"
-              startId="Package\SCD for DimCustomer\Data Conversion 1.Outputs[Data Conversion Output]" />
-            <path
               refId="Package\SCD for DimCustomer.Paths[Derived Column Output]"
               endId="Package\SCD for DimCustomer\OLE DB Command.Inputs[OLE DB Command Input]"
               name="Derived Column Output"
               startId="Package\SCD for DimCustomer\Derived Column.Outputs[Derived Column Output]" />
             <path
               refId="Package\SCD for DimCustomer.Paths[Derived Column Output1]"
-              endId="Package\SCD for DimCustomer\Data Conversion 1.Inputs[Data Conversion Input]"
+              endId="Package\SCD for DimCustomer\Insert Destination.Inputs[OLE DB Destination Input]"
               name="Derived Column Output"
               startId="Package\SCD for DimCustomer\Derived Column 1.Outputs[Derived Column Output]" />
             <path
@@ -7399,6 +7408,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{1EC65058-4C18-440B-A3E3-B4103660B844}"
+      DTS:From="Package\Update currency data"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Clear sales" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
       DTS:DTSID="{FC1E19FA-2687-4674-9303-89C87B4DF661}"
@@ -7414,6 +7431,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
       DTS:To="Package\Update currency data" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{A99ABD1B-7473-4ECF-AD31-5E48942FA69E}"
+      DTS:From="Package\Add sale facts"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\SCD for DimCustomer" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -7426,11 +7451,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="143.2,41.6"
           Id="Package\Add sale facts"
-          TopLeft="753.072349426331,129.90370280037" />
+          TopLeft="612.239023787792,301.503701607085" />
         <NodeLayout
           Size="172,41.6"
           Id="Package\Clear currency rates"
@@ -7438,41 +7463,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <NodeLayout
           Size="130.4,41.6"
           Id="Package\Clear sales"
-          TopLeft="624.074039976172,63.2666662267185" />
+          TopLeft="484.907380913237,237.466665015353" />
         <NodeLayout
           Size="181.6,41.6"
           Id="Package\SCD for DimCustomer"
-          TopLeft="999.16661207461,85.799999403357" />
+          TopLeft="721.666627236541,396.066663912468" />
         <NodeLayout
           Size="177.6,41.6"
           Id="Package\Update currency data"
           TopLeft="371.666646359696,145.599998987516" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="689.274039976172,104.866666226719">
+          TopLeft="615.307380913237,258.266665015353">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="135.398309450159,25.0370365736514"
+              EndConnector="68.531642874555,43.2370365917316"
               Start="0,0"
-              End="135.398309450159,17.5370365736514">
+              End="68.531642874555,35.7370365917316">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,8.51851828682572" />
+                    End="64.531642874555,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,8.51851828682572"
-                    Point2="0,12.5185182868257"
-                    Point3="4,12.5185182868257" />
+                    Point1="64.531642874555,0"
+                    Point2="68.531642874555,0"
+                    Point3="68.531642874555,4" />
                   <mssgle:LineSegment
-                    End="131.398309450159,12.5185182868257" />
-                  <mssgle:CubicBezierSegment
-                    Point1="131.398309450159,12.5185182868257"
-                    Point2="135.398309450159,12.5185182868257"
-                    Point3="135.398309450159,16.5185182868257" />
-                  <mssgle:LineSegment
-                    End="135.398309450159,17.5370365736514" />
+                    End="68.531642874555,35.7370365917316" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7515,6 +7534,74 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="460.466646359696,187.199998987516">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="89.6407345535405,50.2666660278375"
+              Start="0,0"
+              End="89.6407345535405,42.7666660278375">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.1333330139187" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.1333330139187"
+                    Point2="0,25.1333330139187"
+                    Point3="4,25.1333330139187" />
+                  <mssgle:LineSegment
+                    End="85.6407345535405,25.1333330139187" />
+                  <mssgle:CubicBezierSegment
+                    Point1="85.6407345535405,25.1333330139187"
+                    Point2="89.6407345535405,25.1333330139187"
+                    Point3="89.6407345535405,29.1333330139187" />
+                  <mssgle:LineSegment
+                    End="89.6407345535405,42.7666660278375" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="683.839023787792,343.103701607085">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="128.627603448749,52.962962305383"
+              Start="0,0"
+              End="128.627603448749,45.462962305383">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.4814811526915" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.4814811526915"
+                    Point2="0,26.4814811526915"
+                    Point3="4,26.4814811526915" />
+                  <mssgle:LineSegment
+                    End="124.627603448749,26.4814811526915" />
+                  <mssgle:CubicBezierSegment
+                    Point1="124.627603448749,26.4814811526915"
+                    Point2="128.627603448749,26.4814811526915"
+                    Point3="128.627603448749,30.4814811526915" />
+                  <mssgle:LineSegment
+                    End="128.627603448749,45.462962305383" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -7528,39 +7615,25 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Id="Package\Add sale facts\Data Conversion"
           TopLeft="80.541662345537,117.766666086151" />
         <NodeLayout
-          Size="140.8,41.6"
-          Id="Package\Add sale facts\Excel Source"
-          TopLeft="113.208331141414,41.2000001148383" />
+          Size="153.6,41.6"
+          Id="Package\Add sale facts\Conditional Split"
+          TopLeft="85.2916621257449,313.466664039427" />
         <NodeLayout
           Size="178.4,41.6"
           Id="Package\Add sale facts\Log xml excel parsing"
           TopLeft="285.583321047741,121.566666159067" />
         <NodeLayout
-          Size="153.6,41.6"
-          Id="Package\Add sale facts\Conditional Split"
-          TopLeft="85.2916621257449,313.466664039427" />
-        <EdgeLayout
-          Id="Package\Add sale facts.Paths[Excel Source Output]"
-          TopLeft="160.008330076809,82.8000001148383">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34.9666659713125"
-              Start="0,0"
-              End="0,27.4666659713125">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.4666659713125" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="171.2,41.6"
+          Id="Package\Add sale facts\OLE DB Destination"
+          TopLeft="400.999994024634,400.799994039535" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Add sale facts\Derived Column"
+          TopLeft="84.9999953558049,214.266665521595" />
+        <NodeLayout
+          Size="140.8,41.6"
+          Id="Package\Add sale facts\Excel Source"
+          TopLeft="113.208331141414,41.2000001148383" />
         <EdgeLayout
           Id="Package\Add sale facts.Paths[Excel Source Error Output]"
           TopLeft="205.741664474747,82.8000001148383">
@@ -7597,10 +7670,50 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Add sale facts\OLE DB Destination"
-          TopLeft="400.999994024634,400.799994039535" />
+        <EdgeLayout
+          Id="Package\Add sale facts.Paths[Derived Column Output]"
+          TopLeft="161.745828740775,255.866665521595">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,57.5999985178318"
+              Start="0,0"
+              End="0,50.0999985178318">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,50.0999985178318" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Add sale facts.Paths[Data Conversion Output]"
+          TopLeft="159.970828850671,159.366666086151">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,54.8999994354442"
+              Start="0,0"
+              End="0,47.3999994354442">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.3999994354442" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Add sale facts.Paths[Non Null product Keys]"
           TopLeft="162.091662125745,355.066664039427">
@@ -7633,28 +7746,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="103.797935480695,27.8666650000544,116.9124609375,16"
+              BoundingBox="112.666587824445,27.8666650000544,99.17515625,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Add sale facts\Derived Column"
-          TopLeft="76.9999988526105,211.599998420477" />
         <EdgeLayout
-          Id="Package\Add sale facts.Paths[Data Conversion Output]"
-          TopLeft="155.970830599074,159.366666086151">
+          Id="Package\Add sale facts.Paths[Excel Source Output]"
+          TopLeft="160.008330076809,82.8000001148383">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52.2333323343261"
+              EndConnector="0,34.9666659713125"
               Start="0,0"
-              End="0,44.7333323343261">
+              End="0,27.4666659713125">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.7333323343261" />
+                    End="0,27.4666659713125" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7666,6 +7775,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Add sale facts\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Add sale facts\Excel Source">
     <Properties>
@@ -7685,160 +7807,104 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\SCD for DimCustomer\OLE DB Source 1"
-          TopLeft="5.49999999999997,5.49999999999995" />
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\SCD for DimCustomer\Derived Column"
-          TopLeft="263.5,513.5" />
-        <NodeLayout
           Size="135.2,41.6"
           Id="Package\SCD for DimCustomer\XML Source"
-          TopLeft="227.3,5.49999999999995" />
+          TopLeft="173.9,5.49999999999995" />
         <NodeLayout
-          Size="208,41.6"
-          Id="Package\SCD for DimCustomer\Slowly Changing Dimension"
-          TopLeft="374.090476125431,413.138095229485" />
-        <NodeLayout
-          Size="164,41.6"
-          Id="Package\SCD for DimCustomer\Data Conversion 1"
-          TopLeft="602.916633724754,826.933328656621" />
-        <NodeLayout
-          Size="161.6,41.6"
-          Id="Package\SCD for DimCustomer\Derived Column 1"
-          TopLeft="396.1,818.299999999999" />
-        <NodeLayout
-          Size="167.2,41.6"
-          Id="Package\SCD for DimCustomer\OLE DB Command"
-          TopLeft="248.3,615.099999999999" />
+          Size="160.8,41.6"
+          Id="Package\SCD for DimCustomer\OLE DB Source 1"
+          TopLeft="370.1,5.49999999999995" />
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\SCD for DimCustomer\Sort"
-          TopLeft="37.1,107.1" />
-        <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\SCD for DimCustomer\Insert Destination"
-          TopLeft="837.299975959461,887.20000024408" />
+          TopLeft="401.7,107.1" />
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\SCD for DimCustomer\Merge Join"
-          TopLeft="412.1,208.7" />
-        <NodeLayout
-          Size="120,41.6"
-          Id="Package\SCD for DimCustomer\Union All"
-          TopLeft="416.9,716.699999999999" />
+          TopLeft="385.7,207.2555555656" />
         <NodeLayout
           Size="106.4,41.6"
           Id="Package\SCD for DimCustomer\Sort 1"
-          TopLeft="423.7,107.1" />
+          TopLeft="234.3,107.1" />
         <NodeLayout
           Size="168,41.6"
           Id="Package\SCD for DimCustomer\Log xml file parsing"
-          TopLeft="194.9,107.1" />
+          TopLeft="5.5,107.1" />
         <NodeLayout
           Size="156,41.6"
           Id="Package\SCD for DimCustomer\Data Conversion"
-          TopLeft="398.9,310.3" />
-        <EdgeLayout
-          Id="Package\SCD for DimCustomer.Paths[Union All Output 1]"
-          TopLeft="476.9,758.299999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="372.5,310.3" />
         <EdgeLayout
           Id="Package\SCD for DimCustomer.Paths[Sort Output1]"
-          TopLeft="85.9,148.7">
+          TopLeft="450.5,148.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="370.733333333333,59.9999999999999"
+              EndConnector="20.2666666666667,58.5555555656"
               Start="0,0"
-              End="370.733333333333,52.4999999999999">
+              End="20.2666666666667,51.0555555656">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.560975609756" />
+                    End="0,30.7048780547336" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.560975609756"
-                    Point2="0,35.560975609756"
-                    Point3="4,35.560975609756" />
+                    Point1="0,30.7048780547336"
+                    Point2="0,34.7048780547336"
+                    Point3="4,34.7048780547336" />
                   <mssgle:LineSegment
-                    End="366.733333333333,35.560975609756" />
+                    End="16.2666666666667,34.7048780547336" />
                   <mssgle:CubicBezierSegment
-                    Point1="366.733333333333,35.560975609756"
-                    Point2="370.733333333333,35.560975609756"
-                    Point3="370.733333333333,39.560975609756" />
+                    Point1="16.2666666666667,34.7048780547336"
+                    Point2="20.2666666666667,34.7048780547336"
+                    Point3="20.2666666666667,38.7048780547336" />
                   <mssgle:LineSegment
-                    End="370.733333333333,52.4999999999999" />
+                    End="20.2666666666667,51.0555555656" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\SCD for DimCustomer.Paths[Sort Output]"
-          TopLeft="476.9,148.7">
+          TopLeft="287.5,148.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="20.2666666666667,59.9999999999999"
+              EndConnector="142.733333333333,58.5555555656"
               Start="0,0"
-              End="20.2666666666667,52.4999999999999">
+              End="142.733333333333,51.0555555656">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.560975609756" />
+                    End="0,30.7048780547336" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.560975609756"
-                    Point2="0,35.560975609756"
-                    Point3="4,35.560975609756" />
+                    Point1="0,30.7048780547336"
+                    Point2="0,34.7048780547336"
+                    Point3="4,34.7048780547336" />
                   <mssgle:LineSegment
-                    End="16.2666666666667,35.560975609756" />
+                    End="138.733333333333,34.7048780547336" />
                   <mssgle:CubicBezierSegment
-                    Point1="16.2666666666667,35.560975609756"
-                    Point2="20.2666666666667,35.560975609756"
-                    Point3="20.2666666666667,39.560975609756" />
+                    Point1="138.733333333333,34.7048780547336"
+                    Point2="142.733333333333,34.7048780547336"
+                    Point3="142.733333333333,38.7048780547336" />
                   <mssgle:LineSegment
-                    End="20.2666666666667,52.4999999999999" />
+                    End="142.733333333333,51.0555555656" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\SCD for DimCustomer.Paths[OLE DB Source Output]"
-          TopLeft="85.9,47.1">
+          TopLeft="450.5,47.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7855,14 +7921,248 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SCD for DimCustomer.Paths[Customer Error Output]"
+          TopLeft="220.3,47.1">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-130.8,59.9999999999999"
+              Start="0,0"
+              End="-130.8,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.4210526315789" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.4210526315789"
+                    Point2="0,24.4210526315789"
+                    Point3="-4,24.4210526315789" />
+                  <mssgle:LineSegment
+                    End="-126.8,24.4210526315789" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-126.8,24.4210526315789"
+                    Point2="-130.8,24.4210526315789"
+                    Point3="-130.8,28.4210526315789" />
+                  <mssgle:LineSegment
+                    End="-130.8,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-116.54890625,29.4210526315789,102.2978125,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SCD for DimCustomer.Paths[Customer]"
+          TopLeft="262.7,47.1">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="24.8,59.9999999999999"
+              Start="0,0"
+              End="24.8,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.4210526315789" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.4210526315789"
+                    Point2="0,24.4210526315789"
+                    Point3="4,24.4210526315789" />
+                  <mssgle:LineSegment
+                    End="20.8,24.4210526315789" />
+                  <mssgle:CubicBezierSegment
+                    Point1="20.8,24.4210526315789"
+                    Point2="24.8,24.4210526315789"
+                    Point3="24.8,28.4210526315789" />
+                  <mssgle:LineSegment
+                    End="24.8,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SCD for DimCustomer.Paths[Merge Join Output]"
+          TopLeft="450.5,248.8555555656">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,61.4444444343998"
+              Start="0,0"
+              End="0,53.9444444343998">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,53.9444444343998" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="208,41.6"
+          Id="Package\SCD for DimCustomer\Slowly Changing Dimension"
+          TopLeft="346.5,411.9" />
+        <EdgeLayout
+          Id="Package\SCD for DimCustomer.Paths[Data Conversion Output]"
+          TopLeft="450.5,351.9">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.9999999999999"
+              Start="0,0"
+              End="0,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\SCD for DimCustomer\Derived Column"
+          TopLeft="237.1,513.5" />
+        <EdgeLayout
+          Id="Package\SCD for DimCustomer.Paths[Historical Attribute Inserts Output]"
+          TopLeft="417.166666666667,453.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-103.666666666667,59.9999999999999"
+              Start="0,0"
+              End="-103.666666666667,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.2748091603053" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.2748091603053"
+                    Point2="0,24.2748091603053"
+                    Point3="-4,24.2748091603053" />
+                  <mssgle:LineSegment
+                    End="-99.6666666666667,24.2748091603053" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-99.6666666666667,24.2748091603053"
+                    Point2="-103.666666666667,24.2748091603053"
+                    Point3="-103.666666666667,28.2748091603053" />
+                  <mssgle:LineSegment
+                    End="-103.666666666667,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-126.889720052083,29.2748091603053,150.1127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="167.2,41.6"
+          Id="Package\SCD for DimCustomer\OLE DB Command"
+          TopLeft="221.9,615.099999999999" />
+        <EdgeLayout
+          Id="Package\SCD for DimCustomer.Paths[Derived Column Output]"
+          TopLeft="313.5,555.1">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-8,59.9999999999999"
+              Start="0,0"
+              End="-8,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.9999999999999"
+                    Point2="0,29.9999999999999"
+                    Point3="-4,29.9999999999999" />
+                  <mssgle:LineSegment
+                    End="-4,29.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-4,29.9999999999999"
+                    Point2="-8,29.9999999999999"
+                    Point3="-8,33.9999999999999" />
+                  <mssgle:LineSegment
+                    End="-8,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="120,41.6"
+          Id="Package\SCD for DimCustomer\Union All"
+          TopLeft="390.5,716.699999999999" />
+        <EdgeLayout
+          Id="Package\SCD for DimCustomer.Paths[New Output]"
+          TopLeft="483.833333333333,453.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-14.6666666666666,263.2"
+              Start="0,0"
+              End="-14.6666666666666,255.7">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,126.695815115553" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,126.695815115553"
+                    Point2="0,130.695815115553"
+                    Point3="-4,130.695815115553" />
+                  <mssgle:LineSegment
+                    End="-10.6666666666666,130.695815115553" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-10.6666666666666,130.695815115553"
+                    Point2="-14.6666666666666,130.695815115553"
+                    Point3="-14.6666666666666,134.695815115553" />
+                  <mssgle:LineSegment
+                    End="-14.6666666666666,255.7" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-34.4247200520833,135.695815115553,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\SCD for DimCustomer.Paths[OLE DB Command Output]"
-          TopLeft="331.9,656.699999999999">
+          TopLeft="305.5,656.699999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7891,50 +8191,16 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\SCD for DimCustomer\Derived Column 1"
+          TopLeft="369.7,818.299999999999" />
         <EdgeLayout
-          Id="Package\SCD for DimCustomer.Paths[New Output]"
-          TopLeft="511.423809458765,454.738095229485">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-15.857142792098,261.961904770514"
-              Start="0,0"
-              End="-15.857142792098,254.461904770514">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,126.081020794852" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,126.081020794852"
-                    Point2="0,130.081020794852"
-                    Point3="-4,130.081020794852" />
-                  <mssgle:LineSegment
-                    End="-11.857142792098,130.081020794852" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-11.857142792098,130.081020794852"
-                    Point2="-15.857142792098,130.081020794852"
-                    Point3="-15.857142792098,134.081020794852" />
-                  <mssgle:LineSegment
-                    End="-15.857142792098,254.461904770514" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-35.019958114799,135.081020794852,54.1827734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SCD for DimCustomer.Paths[Merge Join Output]"
-          TopLeft="476.9,250.3">
+          Id="Package\SCD for DimCustomer.Paths[Union All Output 1]"
+          TopLeft="450.5,758.299999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7951,225 +8217,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SCD for DimCustomer.Paths[Historical Attribute Inserts Output]"
-          TopLeft="444.757142792098,454.738095229485">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-104.857142792098,58.7619047705143"
-              Start="0,0"
-              End="-104.857142792098,51.2619047705143">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.7739004033378" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.7739004033378"
-                    Point2="0,23.7739004033378"
-                    Point3="-4,23.7739004033378" />
-                  <mssgle:LineSegment
-                    End="-100.857142792098,23.7739004033378" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-100.857142792098,23.7739004033378"
-                    Point2="-104.857142792098,23.7739004033378"
-                    Point3="-104.857142792098,27.7739004033378" />
-                  <mssgle:LineSegment
-                    End="-104.857142792098,51.2619047705143" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-127.484958114799,28.7739004033378,150.1127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="159.2,41.6"
+          Id="Package\SCD for DimCustomer\Insert Destination"
+          TopLeft="368.753535470813,917.667676783199" />
         <EdgeLayout
           Id="Package\SCD for DimCustomer.Paths[Derived Column Output1]"
-          TopLeft="557.7,839.099999999999">
+          TopLeft="449.426767735407,859.899999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="45.2166337247538,8.63332865662164"
+              EndConnector="0,57.7676767831998"
               Start="0,0"
-              End="37.7166337247538,8.63332865662164">
+              End="0,50.2676767831998">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="18.6083168623769,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="18.6083168623769,0"
-                    Point2="22.6083168623769,0"
-                    Point3="22.6083168623769,4" />
-                  <mssgle:LineSegment
-                    End="22.6083168623769,4.63332865662164" />
-                  <mssgle:CubicBezierSegment
-                    Point1="22.6083168623769,4.63332865662164"
-                    Point2="22.6083168623769,8.63332865662164"
-                    Point3="26.6083168623769,8.63332865662164" />
-                  <mssgle:LineSegment
-                    End="37.7166337247538,8.63332865662164" />
+                    End="0,50.2676767831998" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SCD for DimCustomer.Paths[Derived Column Output]"
-          TopLeft="335.9,555.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SCD for DimCustomer.Paths[Data Conversion Output1]"
-          TopLeft="766.916633724754,847.733328656621">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="70.3833422347069,60.2666715874592"
-              Start="0,0"
-              End="62.8833422347069,60.2666715874592">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="31.1916711173535,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="31.1916711173535,0"
-                    Point2="35.1916711173535,0"
-                    Point3="35.1916711173535,4" />
-                  <mssgle:LineSegment
-                    End="35.1916711173535,56.2666715874592" />
-                  <mssgle:CubicBezierSegment
-                    Point1="35.1916711173535,56.2666715874592"
-                    Point2="35.1916711173535,60.2666715874592"
-                    Point3="39.1916711173535,60.2666715874592" />
-                  <mssgle:LineSegment
-                    End="62.8833422347069,60.2666715874592" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SCD for DimCustomer.Paths[Data Conversion Output]"
-          TopLeft="477.495238062716,351.9">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,61.2380952294856"
-              Start="0,0"
-              End="0,53.7380952294856">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,53.7380952294856" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SCD for DimCustomer.Paths[Customer Error Output]"
-          TopLeft="276.3,47.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-51.14890625,20.533203125,102.2978125,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SCD for DimCustomer.Paths[Customer]"
-          TopLeft="316.1,47.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="160.8,59.9999999999999"
-              Start="0,0"
-              End="160.8,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.4210526315789" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.4210526315789"
-                    Point2="0,24.4210526315789"
-                    Point3="4,24.4210526315789" />
-                  <mssgle:LineSegment
-                    End="156.8,24.4210526315789" />
-                  <mssgle:CubicBezierSegment
-                    Point1="156.8,24.4210526315789"
-                    Point2="160.8,24.4210526315789"
-                    Point3="160.8,28.4210526315789" />
-                  <mssgle:LineSegment
-                    End="160.8,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8188,84 +8262,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\SCD for DimCustomer\Slowly Changing Dimension">
-    <Properties>
-      <Property>
-        <Name>SCDMetadata</Name>
-        <Value
-          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;SCDWizardMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
-  &lt;ConnectionID&gt;{C54996EB-42F6-4A79-9932-F1C853243153}&lt;/ConnectionID&gt;
-  &lt;TableName&gt;[dbo].[DimClient]&lt;/TableName&gt;
-  &lt;InputToColumnsCollection&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Merge Join.Outputs[Merge Join Output].Columns[Customer]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;FullName&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;HistoricalAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Merge Join.Outputs[Merge Join Output].Columns[GeographyKey]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;GeographyId&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerId]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;id&lt;/ColumnName&gt;
-      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
-      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-  &lt;/InputToColumnsCollection&gt;
-  &lt;GeneratedComponentsIdentificationStrings&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;Derived Column&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;Union All&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;Derived Column 1&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
-  &lt;/GeneratedComponentsIdentificationStrings&gt;
-  &lt;FailFixedAttribute&gt;true&lt;/FailFixedAttribute&gt;
-  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
-  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
-  &lt;CurrentIndicatorColumn&gt;IsValid&lt;/CurrentIndicatorColumn&gt;
-  &lt;InferredIndicatorColumn /&gt;
-  &lt;ValueCurrent&gt;1&lt;/ValueCurrent&gt;
-  &lt;ValueExpired&gt;0&lt;/ValueExpired&gt;
-  &lt;StartDateColumn /&gt;
-  &lt;EndDateColumn /&gt;
-  &lt;DateVariable /&gt;
-  &lt;EnableInferredSupport&gt;false&lt;/EnableInferredSupport&gt;
-&lt;/SCDWizardMetadata&gt;</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\SCD for DimCustomer\Insert Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Update currency data">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\Update currency data\OLE DB Source"
-          TopLeft="429.629606155703,306.222220092791" />
-        <NodeLayout
           Size="171.2,41.6"
           Id="Package\Update currency data\OLE DB Destination"
           TopLeft="295.370354232045,646.148143654915" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Update currency data\Sort"
+          TopLeft="122.222215544295,410.888886377767" />
         <NodeLayout
           Size="151.2,41.6"
           Id="Package\Update currency data\Flat File Source"
@@ -8287,9 +8296,81 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Id="Package\Update currency data\Derived Column"
           TopLeft="87.9999986886978,309.251847667642" />
         <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Update currency data\Sort"
-          TopLeft="122.222215544295,410.888886377767" />
+          Size="152,41.6"
+          Id="Package\Update currency data\OLE DB Source"
+          TopLeft="429.629606155703,306.222220092791" />
+        <EdgeLayout
+          Id="Package\Update currency data.Paths[Sort Output1]"
+          TopLeft="505.977753039092,449.599997508967">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-100.540733506319,88.9925921171537"
+              Start="0,0"
+              End="-100.540733506319,81.4925921171537">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.7443899621179" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,48.7443899621179"
+                    Point2="0,52.7443899621179"
+                    Point3="-4,52.7443899621179" />
+                  <mssgle:LineSegment
+                    End="-96.5407335063193,52.7443899621179" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-96.5407335063193,52.7443899621179"
+                    Point2="-100.540733506319,52.7443899621179"
+                    Point3="-100.540733506319,56.7443899621179" />
+                  <mssgle:LineSegment
+                    End="-100.540733506319,81.4925921171537" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update currency data.Paths[Sort Output]"
+          TopLeft="171.022215544295,452.488886377767">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="193.881470655144,86.1037032483536"
+              Start="0,0"
+              End="193.881470655144,78.6037032483536">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.032194852073" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,47.032194852073"
+                    Point2="0,51.032194852073"
+                    Point3="4,51.032194852073" />
+                  <mssgle:LineSegment
+                    End="189.881470655144,51.032194852073" />
+                  <mssgle:CubicBezierSegment
+                    Point1="189.881470655144,51.032194852073"
+                    Point2="193.881470655144,51.032194852073"
+                    Point3="193.881470655144,55.032194852073" />
+                  <mssgle:LineSegment
+                    End="193.881470655144,78.6037032483536" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Update currency data.Paths[OLE DB Source Output]"
           TopLeft="505.803679597397,347.822220092791">
@@ -8309,7 +8390,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8331,7 +8414,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8353,7 +8438,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8411,93 +8498,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update currency data.Paths[Sort Output1]"
-          TopLeft="505.977753039092,449.599997508967">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-100.540733506319,88.9925921171537"
-              Start="0,0"
-              End="-100.540733506319,81.4925921171537">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,48.7443899621179" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,48.7443899621179"
-                    Point2="0,52.7443899621179"
-                    Point3="-4,52.7443899621179" />
-                  <mssgle:LineSegment
-                    End="-96.5407335063193,52.7443899621179" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-96.5407335063193,52.7443899621179"
-                    Point2="-100.540733506319,52.7443899621179"
-                    Point3="-100.540733506319,56.7443899621179" />
-                  <mssgle:LineSegment
-                    End="-100.540733506319,81.4925921171537" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update currency data.Paths[Sort Output]"
-          TopLeft="171.022215544295,452.488886377767">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="193.881470655144,86.1037032483536"
-              Start="0,0"
-              End="193.881470655144,78.6037032483536">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,47.032194852073" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,47.032194852073"
-                    Point2="0,51.032194852073"
-                    Point3="4,51.032194852073" />
-                  <mssgle:LineSegment
-                    End="189.881470655144,51.032194852073" />
-                  <mssgle:CubicBezierSegment
-                    Point1="189.881470655144,51.032194852073"
-                    Point2="193.881470655144,51.032194852073"
-                    Point3="193.881470655144,55.032194852073" />
-                  <mssgle:LineSegment
-                    End="193.881470655144,78.6037032483536" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Update currency data\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Update currency data\OLE DB Destination">
     <Properties>
@@ -8512,7 +8520,66 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Add sale facts\OLE DB Destination">
+    design-time-name="Package\Update currency data\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\SCD for DimCustomer\Slowly Changing Dimension">
+    <Properties>
+      <Property>
+        <Name>SCDMetadata</Name>
+        <Value
+          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SCDWizardMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionID&gt;{C54996EB-42F6-4A79-9932-F1C853243153}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[dbo].[DimClient]&lt;/TableName&gt;
+  &lt;InputToColumnsCollection&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Data Conversion.Outputs[Data Conversion Output].Columns[FullName]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;FullName&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;HistoricalAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CustomerKey]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;id&lt;/ColumnName&gt;
+      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
+      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+  &lt;/InputToColumnsCollection&gt;
+  &lt;GeneratedComponentsIdentificationStrings&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Derived Column&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Union All&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Derived Column 1&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
+  &lt;/GeneratedComponentsIdentificationStrings&gt;
+  &lt;FailFixedAttribute&gt;true&lt;/FailFixedAttribute&gt;
+  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
+  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
+  &lt;CurrentIndicatorColumn&gt;IsValid&lt;/CurrentIndicatorColumn&gt;
+  &lt;InferredIndicatorColumn /&gt;
+  &lt;ValueCurrent&gt;1&lt;/ValueCurrent&gt;
+  &lt;ValueExpired&gt;0&lt;/ValueExpired&gt;
+  &lt;StartDateColumn /&gt;
+  &lt;EndDateColumn /&gt;
+  &lt;DateVariable /&gt;
+  &lt;EnableInferredSupport&gt;false&lt;/EnableInferredSupport&gt;
+&lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\SCD for DimCustomer\Insert Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

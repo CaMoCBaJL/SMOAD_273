@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Customers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="Customer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CustomerKey" type="xs:unsignedShort" />
+              <xs:element minOccurs="0" name="CustomerId" type="xs:string" />
+              <xs:element minOccurs="0" name="Customer" type="xs:string" />
+              <xs:element minOccurs="0" name="City" type="xs:string" />
+              <xs:element minOccurs="0" name="State-Province" type="xs:string" />
+              <xs:element minOccurs="0" name="Country-Region" type="xs:string" />
+              <xs:element minOccurs="0" name="PostalCode" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
