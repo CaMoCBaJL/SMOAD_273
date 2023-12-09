@@ -24,24 +24,24 @@
       <FullPath>Dim Date.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Currency.dim</Name>
-      <FullPath>Dim Currency.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Mini Dim Demography.dim</Name>
-      <FullPath>Mini Dim Demography.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Client.dim</Name>
-      <FullPath>Dim Client.dim</FullPath>
+      <Name>Dim Service.dim</Name>
+      <FullPath>Dim Service.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Discount.dim</Name>
       <FullPath>Dim Discount.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Service.dim</Name>
-      <FullPath>Dim Service.dim</FullPath>
+      <Name>Dim Client.dim</Name>
+      <FullPath>Dim Client.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Mini Dim Demography 1.dim</Name>
+      <FullPath>Mini Dim Demography 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Currency 1.dim</Name>
+      <FullPath>Dim Currency 1.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
